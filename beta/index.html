@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sing my part (beta)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <h1><a href="./" title="Back to the start">Sing my part</a> <a class="beta" href="../" title="This is the beta, with new features being tried out. Go to the main version">beta</a></h1>
+    <div class="seg source" role="radiogroup" aria-label="What to sing">
+      <label><input type="radio" name="src" value="piece" checked><span>My score</span></label>
+      <label><input type="radio" name="src" value="gen"><span>Exercises</span></label>
+    </div>
+    <div class="scoremenu" id="topLoad" hidden>
+      <button type="button" class="filebtn small" id="scoreMenuBtn" aria-haspopup="true" aria-expanded="false">Change score ▾</button>
+      <div class="menu" id="scoreMenu" hidden>
+        <button type="button" class="menuitem" data-sample="bwv225"><b>Singet dem Herrn ein neues Lied</b><small>Bach, BWV 225</small></button>
+        <button type="button" class="menuitem" data-sample="bwv228"><b>Fürchte dich nicht</b><small>Bach, BWV 228</small></button>
+        <button type="button" class="menuitem" data-sample="softvoices"><b>Music, when soft voices die</b><small>Frank Bridge</small></button>
+        <button type="button" class="menuitem" data-open-chorales="1"><b>Bach chorales…</b><small>Four-part chorales</small></button>
+        <label class="menuitem file"><b>Load a MusicXML file…</b><small>.musicxml, .xml, .mxl or .zip</small><input type="file" class="fileinput" aria-label="Load a MusicXML file" accept=".musicxml,.xml,.mxl,.zip,application/vnd.recordare.musicxml+xml,application/vnd.recordare.musicxml"></label>
+      </div>
+    </div>
+    <span class="filename" id="fileName"></span>
+    <div class="topctl">
+    <label class="topfield" id="topRangeWrap" hidden>Bars <select id="topRange"></select></label>
+    <label class="topfield" id="topPartWrap" hidden>Part <select id="topPart"></select></label>
+    <label class="topfield" id="topAlongWrap" hidden>Play along
+      <select id="topAlong">
+        <option value="none">Off</option>
+        <option value="all">All other parts</option>
+        <option value="allguide">All other parts + my part</option>
+        <option value="custom">Choose parts…</option>
+      </select>
+    </label>
+    </div>
+    <div class="topright">
+      <div class="mic" id="micStatus"><span class="dot"></span><span id="micText">Mic off</span><span class="lvl" aria-hidden="true"><i id="lvl"></i></span></div>
+      <button id="settingsBtn" class="ghost" aria-expanded="false" aria-controls="settingsPanel">Settings</button>
+    </div>
+  </header>
+
+  <div class="settings" id="settingsPanel" hidden>
+    <div class="group" id="genSettings">
+      <label class="field">Key
+        <select id="key">
+          <option>C</option><option>G</option><option>D</option><option>A</option><option>E</option>
+          <option>F</option><option value="Bb">B♭</option><option value="Eb">E♭</option><option value="Ab">A♭</option>
+        </select>
+      </label>
+      <label class="field">Clef
+        <select id="clef"><option value="treble">Treble</option><option value="bass">Bass</option></select>
+      </label>
+      <label class="field">Difficulty
+        <select id="diff">
+          <option value="steps">Steps</option>
+          <option value="skips">Steps and skips</option>
+          <option value="leaps">Leaps</option>
+        </select>
+      </label>
+      <label class="field">Length
+        <select id="measures"><option value="2">2 bars</option><option value="4">4 bars</option></select>
+      </label>
+    </div>
+    <div class="group" id="pieceSettings" hidden>
+      <label class="field">Part
+        <select id="part" disabled><option>Load a score first</option></select>
+      </label>
+      <label class="field">From bar
+        <input type="number" id="fromBar" min="0" step="1" disabled>
+      </label>
+      <label class="field">To bar
+        <input type="number" id="toBar" min="0" step="1" disabled>
+      </label>
+      <label class="field">Show
+        <select id="view"><option value="full">Full score</option><option value="part">My part only</option></select>
+      </label>
+      <label class="field check" id="fadeField"><input type="checkbox" id="fade"> Fade other parts</label>
+      <div class="field along-wrap" id="alongField">Play along with
+        <div class="along" id="alongParts"><span class="muted">Load a score first</span></div>
+      </div>
+      <label class="field check" id="replayAlongField" title="When you play back what you sang, play the other parts with it"><input type="checkbox" id="replayAlong" checked> Play back with the other parts</label>
+      <label class="field check" id="phonesField" title="Without headphones the app ignores sounds that match the play-along"><input type="checkbox" id="phones"> I'm wearing headphones</label>
+      <label class="field" id="alongVolField">Other parts volume
+        <div class="tempo"><input type="range" id="alongVol" min="0" max="100" step="5" value="50"><span id="alongVolVal">50%</span></div>
+      </label>
+      <label class="field" id="guideVolField">My part volume
+        <div class="tempo"><input type="range" id="guideVol" min="0" max="100" step="5" value="50"><span id="guideVolVal">50%</span></div>
+      </label>
+    </div>
+    <div class="field" id="tempoField">Tempo
+      <div class="tempo"><input type="range" id="tempo" min="30" max="200" step="2" value="72"><span>♩ = <span id="tempoVal">72</span></span></div>
+    </div>
+    <label class="field check" id="clickField"><input type="checkbox" id="clicks" checked> Metronome</label>
+    <label class="field" id="clickVolField">Metronome volume
+      <div class="tempo"><input type="range" id="clickVol" min="0" max="100" step="5" value="50"><span id="clickVolVal">50%</span></div>
+    </label>
+    <label class="field" title="The sound of the play-along, your guide part, and the Play buttons">Sound
+      <select id="sound">
+        <option value="simple">Simple tone</option>
+        <option value="oo">Soft “oo”</option>
+        <option value="piano">Grand piano</option>
+      </select>
+      <small class="muted" id="soundNote" hidden></small>
+    </label>
+    <label class="field" title="Reference pitch for playback and for judging your tuning">Pitch
+      <select id="aRef">
+        <option value="440">A = 440 Hz (modern)</option>
+        <option value="442">A = 442 Hz</option>
+        <option value="415">A = 415 Hz (Baroque)</option>
+      </select>
+    </label>
+    <label class="field">Microphone
+      <select id="micSel"><option value="">System default</option></select>
+    </label>
+    <label class="field check" title="Can help when play-along comes through speakers, but some computers then distort the sound or cut out your voice"><input type="checkbox" id="ecBox"> Echo cancellation</label>
+    <p class="hint" id="hint">Headphones give the best results with play-along; without them the app ignores sounds that match the other parts, which helps but is not perfect. With Bluetooth headphones such as AirPods, choose your computer's built-in microphone above: using the headphones' own mic switches them to low-quality call audio, which sounds distorted. The level bar next to Listening shows whether the mic hears you.</p>
+  </div>
+
+  <main class="stage" id="stage">
+    <div class="sheet" id="genView">
+      <div class="count" id="countGen" aria-live="polite"></div>
+      <svg id="staff" role="img" aria-label="Exercise notation"></svg>
+    </div>
+    <div class="scorebox" id="pieceView" hidden>
+      <div class="count" id="countPiece" aria-live="polite"></div>
+      <div class="startchip" id="startChip" hidden><span id="startChipText"></span><button type="button" id="startChipX" aria-label="Start from the beginning again">×</button></div>
+      <div class="empty" id="emptyScore">
+        <h2>Load a score to practice</h2>
+        <div class="startrow">
+          <label class="filebtn big">Load MusicXML score<input type="file" class="fileinput" accept=".musicxml,.xml,.mxl,.zip,application/vnd.recordare.musicxml+xml,application/vnd.recordare.musicxml"></label>
+          <span class="or">or open</span>
+          <div class="samplegroup">
+            <button type="button" class="samplebtn" data-sample="bwv225"><b>Singet dem Herrn ein neues Lied</b><small>Bach, BWV 225</small></button>
+            <button type="button" class="samplebtn" data-sample="bwv228"><b>Fürchte dich nicht</b><small>Bach, BWV 228</small></button>
+            <button type="button" class="samplebtn" data-sample="softvoices"><b>Music, when soft voices die</b><small>Frank Bridge</small></button>
+            <button type="button" class="samplebtn" data-open-chorales="1"><b>Bach chorales</b><small>Four-part chorales</small></button>
+          </div>
+        </div>
+        <p>Choose a MusicXML file (.musicxml, .xml, .mxl, or a .zip containing one), then pick your part and the bars you want to sing. The full score is shown a page at a time, the note you should be singing is highlighted in blue, and each of your notes turns green, amber, or red as you sing it.</p>
+        <p>MuseScore, Sibelius, Finale, and Dorico can all export MusicXML. CPDL (cpdl.org) and IMSLP have free choral editions, many with MusicXML downloads.</p>
+      </div>
+      <div id="score"></div>
+      <button class="turn prev" id="tapPrev" aria-label="Previous page" tabindex="-1"></button>
+      <button class="turn next" id="tapNext" aria-label="Next page" tabindex="-1"></button>
+    </div>
+    <div class="chooser" id="chooser" hidden role="dialog" aria-label="Bach chorales">
+      <div class="chead">
+        <h2>Bach chorales</h2>
+        <input type="search" id="chSearch" placeholder="Search by title or number, e.g. Jesu, 66.6, R 21" aria-label="Search chorales">
+        <span class="chcount" id="chCount"></span>
+        <button type="button" class="close" id="chClose" aria-label="Close">×</button>
+      </div>
+      <div class="chlist" id="chList"></div>
+      <p class="chnote">Four-part harmonisations from the music21 corpus, stored in the assets folder. R = Riemenschneider number.</p>
+    </div>
+    <div class="card" id="card" hidden>
+      <button class="close" id="cardClose" aria-label="Close">×</button>
+      <div class="error" id="error" role="alert"></div>
+      <div class="result" id="result" aria-live="polite"></div>
+    </div>
+  </main>
+
+  <footer class="dock">
+    <div class="pager" id="pager" hidden>
+      <button id="prevPage" aria-label="Previous page">‹</button>
+      <span id="pageInfo">1 / 1</span>
+      <button id="nextPage" aria-label="Next page">›</button>
+      <span class="sep"></span>
+      <button id="zoomOut" aria-label="Smaller notation">A−</button>
+      <button id="zoomIn" aria-label="Larger notation">A+</button>
+    </div>
+    <div class="actions">
+      <button class="primary" id="startBtn">Start</button>
+      <button id="stopBtn" hidden>Stop</button>
+      <button id="aBtn">Play A</button>
+      <button id="keyBtn">Play key</button>
+      <button id="firstBtn">First note</button>
+      <button id="hearBtn">Hear the melody</button>
+      <button id="replayBtn" hidden title="Hear what you just sang, with the score following along">Play back</button>
+      <label class="tunebox" id="tuneWrap" hidden title="Play back and save your singing pulled to the right pitch (vibrato and expression stay)"><input type="checkbox" id="tuneBox"> Autotune <small class="muted" id="tuneInfo"></small></label>
+      <button id="keepBtn" hidden title="Keep this recording as a part to practise against: it appears under Play along">Practise with this</button>
+      <button id="downloadBtn" hidden title="Save what Play back would play (with or without the other parts, at the current volumes) as an MP3">Download MP3</button>
+      <button id="newBtn">New exercise</button>
+    </div>
+    <div class="vols" id="dockTempo">
+      <label title="Metronome clicks"><input type="checkbox" id="dClicks"> Click</label>
+      <label title="Metronome volume" class="clickvol"><input type="range" id="dClickVol" min="0" max="100" step="5" aria-label="Metronome volume"></label>
+      <label title="Tempo">♩ <input type="range" id="dTempo" min="30" max="200" step="2"> <span id="dTempoVal"></span></label>
+    </div>
+    <div class="vols" id="dockVols" hidden>
+      <label title="Volume of the other parts">Others <input type="range" id="dAlongVol" min="0" max="100" step="5"></label>
+      <label title="Volume of my part, and of your recording when you play it back">Mine <input type="range" id="dGuideVol" min="0" max="100" step="5"></label>
+    </div>
+    <div class="live" aria-live="off">
+      <div class="tgt">
+        <div class="cap" id="targetCap">First note</div>
+        <div class="big" id="target">–</div>
+      </div>
+      <div class="sg">
+        <div class="cap">You're singing</div>
+        <div class="sung" id="sung">–<small id="cents"></small></div>
+      </div>
+      <div class="gauge" aria-hidden="true">
+        <div class="track"></div><div class="zone"></div><div class="mid"></div><div class="needle" id="needle"></div>
+        <div class="ends"><span>flat</span><span>sharp</span></div>
+      </div>
+    </div>
+    <div class="credit">Made by Claude and <a href="https://akoepke.github.io/" target="_blank" rel="noopener">A. Sophia Koepke</a></div>
+  </footer>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

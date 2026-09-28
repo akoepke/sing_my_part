@@ -4,6 +4,8 @@ A browser app for practising your own line in choral music. Load a MusicXML scor
 
 **Try it:** https://akoepke.github.io/sing_my_part/
 
+**Beta:** https://akoepke.github.io/sing_my_part/beta/ has new features being tried out: playing back what you sang (with the score following along, the other parts, Autotune, and an MP3 download), practising against your own recordings, and a correction for your device's audio delay. It shares the scores in `assets/` and keeps its own settings.
+
 ## Features
 
 - Load any MusicXML score (`.musicxml`, `.xml`, `.mxl`, or a `.zip` containing one), or pick one of the built-in samples: two Bach motets (BWV 225, BWV 228), Frank Bridge's *Music, when soft voices die*, and several hundred four-part Bach chorales.
