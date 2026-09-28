@@ -1,0 +1,2855 @@
+{
+ "title": "Bach chorales",
+ "source": "music21 corpus (https://github.com/cuthbertLab/music21)",
+ "chorales": [
+  {
+   "id": "bwv1.6",
+   "file": "bwv1.6.mxl",
+   "bwv": "1.6",
+   "title": "Chorale from BWV 1 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv2.6",
+   "file": "bwv2.6.mxl",
+   "bwv": "2.6",
+   "title": "Ach Gott, vom Himmel sieh' darein",
+   "riemenschneider": 262
+  },
+  {
+   "id": "bwv3.6",
+   "file": "bwv3.6.mxl",
+   "bwv": "3.6",
+   "title": "Ach Gott, wie manches Herzeleid",
+   "riemenschneider": 156
+  },
+  {
+   "id": "bwv4.8",
+   "file": "bwv4.8.mxl",
+   "bwv": "4.8",
+   "title": "Christ lag in Todesbanden",
+   "riemenschneider": 184
+  },
+  {
+   "id": "bwv5.7",
+   "file": "bwv5.7.mxl",
+   "bwv": "5.7",
+   "title": "Auf meinen lieben Gott",
+   "riemenschneider": 304
+  },
+  {
+   "id": "bwv6.6",
+   "file": "bwv6.6.mxl",
+   "bwv": "6.6",
+   "title": "Erhalt' uns, Herr, bei deinem Wort",
+   "riemenschneider": 72
+  },
+  {
+   "id": "bwv7.7",
+   "file": "bwv7.7.mxl",
+   "bwv": "7.7",
+   "title": "Chorale from BWV 7 (no. 7)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv8.6",
+   "file": "bwv8.6.mxl",
+   "bwv": "8.6",
+   "title": "Liebster Gott, wann werd' ich sterben",
+   "riemenschneider": 43
+  },
+  {
+   "id": "bwv9.7",
+   "file": "bwv9.7.mxl",
+   "bwv": "9.7",
+   "title": "Es ist das Heil uns kommen her",
+   "riemenschneider": 290
+  },
+  {
+   "id": "bwv10.7",
+   "file": "bwv10.7.mxl",
+   "bwv": "10.7",
+   "title": "Meine Seel' erhebt den Herren",
+   "riemenschneider": 358
+  },
+  {
+   "id": "bwv11.6",
+   "file": "bwv11.6.mxl",
+   "bwv": "11.6",
+   "title": "Nun lieget alles unter dir",
+   "riemenschneider": 343
+  },
+  {
+   "id": "bwv12.7",
+   "file": "bwv12.7.mxl",
+   "bwv": "12.7",
+   "title": "Chorale from BWV 12 (no. 7)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv13.6",
+   "file": "bwv13.6.mxl",
+   "bwv": "13.6",
+   "title": "Nun ruhen alle Wälder",
+   "riemenschneider": 103
+  },
+  {
+   "id": "bwv14.5",
+   "file": "bwv14.5.mxl",
+   "bwv": "14.5",
+   "title": "Wär' Gott nicht mit uns diese Zeit",
+   "riemenschneider": 182
+  },
+  {
+   "id": "bwv16.6",
+   "file": "bwv16.6.mxl",
+   "bwv": "16.6",
+   "title": "Helft mir Gott's Güte preisen",
+   "riemenschneider": 99
+  },
+  {
+   "id": "bwv17.7",
+   "file": "bwv17.7.mxl",
+   "bwv": "17.7",
+   "title": "Nun lob', mein' Seel', den Herren",
+   "riemenschneider": 7
+  },
+  {
+   "id": "bwv18.5-lz",
+   "file": "bwv18.5-lz.mxl",
+   "bwv": "18.5-lz",
+   "title": "Chorale from BWV 18 (no. 5)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv18.5-w",
+   "file": "bwv18.5-w.mxl",
+   "bwv": "18.5-w",
+   "title": "Durch Adams Fall ist ganz verderbt",
+   "riemenschneider": 100
+  },
+  {
+   "id": "bwv19.7",
+   "file": "bwv19.7.mxl",
+   "bwv": "19.7",
+   "title": "Weg, mein Herz, mit den Gedanken",
+   "riemenschneider": 298
+  },
+  {
+   "id": "bwv20.7",
+   "file": "bwv20.7.mxl",
+   "bwv": "20.7",
+   "title": "O Ewigkeit, du Donnerwort",
+   "riemenschneider": 26
+  },
+  {
+   "id": "bwv20.11",
+   "file": "bwv20.11.mxl",
+   "bwv": "20.11",
+   "title": "O Ewigkeit, du Donnerwort",
+   "riemenschneider": 26
+  },
+  {
+   "id": "bwv24.6",
+   "file": "bwv24.6.mxl",
+   "bwv": "24.6",
+   "title": "O Gott, du frommer Gott",
+   "riemenschneider": 337
+  },
+  {
+   "id": "bwv25.6",
+   "file": "bwv25.6.mxl",
+   "bwv": "25.6",
+   "title": "Weg, mein Herz, mit den Gedanken",
+   "riemenschneider": 254
+  },
+  {
+   "id": "bwv26.6",
+   "file": "bwv26.6.mxl",
+   "bwv": "26.6",
+   "title": "Ach wie nichtig, ach wie flüchtig",
+   "riemenschneider": 48
+  },
+  {
+   "id": "bwv27.6",
+   "file": "bwv27.6.mxl",
+   "bwv": "27.6",
+   "title": "Welt, ade! ich bin dein müde",
+   "riemenschneider": 150
+  },
+  {
+   "id": "bwv28.6",
+   "file": "bwv28.6.mxl",
+   "bwv": "28.6",
+   "title": "Zeuch ein zu deinen Toren",
+   "riemenschneider": 23
+  },
+  {
+   "id": "bwv29.8",
+   "file": "bwv29.8.mxl",
+   "bwv": "29.8",
+   "title": "Nun lob', mein' Seel', den Herren",
+   "riemenschneider": 116
+  },
+  {
+   "id": "bwv30.6",
+   "file": "bwv30.6.mxl",
+   "bwv": "30.6",
+   "title": "Freu' dich sehr, o meine Seele",
+   "riemenschneider": 76
+  },
+  {
+   "id": "bwv31.9",
+   "file": "bwv31.9.mxl",
+   "bwv": "31.9",
+   "title": "Chorale from BWV 31 (no. 9)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv32.6",
+   "file": "bwv32.6.mxl",
+   "bwv": "32.6",
+   "title": "Freu' dich sehr, o meine Seele",
+   "riemenschneider": 29
+  },
+  {
+   "id": "bwv33.6",
+   "file": "bwv33.6.mxl",
+   "bwv": "33.6",
+   "title": "Allein zu dir, Herr Jesu Christ",
+   "riemenschneider": 13
+  },
+  {
+   "id": "bwv36.4-2",
+   "file": "bwv36.4-2.mxl",
+   "bwv": "36.4-2",
+   "title": "Wie schön leuchtet der Morgenstern",
+   "riemenschneider": 86
+  },
+  {
+   "id": "bwv36.8-2",
+   "file": "bwv36.8-2.mxl",
+   "bwv": "36.8-2",
+   "title": "Nun komm, der Heiden Heiland",
+   "riemenschneider": 28
+  },
+  {
+   "id": "bwv37.6",
+   "file": "bwv37.6.mxl",
+   "bwv": "37.6",
+   "title": "Ich dank' dir, lieber Herre",
+   "riemenschneider": 341
+  },
+  {
+   "id": "bwv38.6",
+   "file": "bwv38.6.mxl",
+   "bwv": "38.6",
+   "title": "Aus tiefer Not schrei' ich zu dir",
+   "riemenschneider": 10
+  },
+  {
+   "id": "bwv39.7",
+   "file": "bwv39.7.mxl",
+   "bwv": "39.7",
+   "title": "Freu' dich sehr, o meine Seele",
+   "riemenschneider": 67
+  },
+  {
+   "id": "bwv40.3",
+   "file": "bwv40.3.mxl",
+   "bwv": "40.3",
+   "title": "Wir Christenleut'",
+   "riemenschneider": 321
+  },
+  {
+   "id": "bwv40.6",
+   "file": "bwv40.6.mxl",
+   "bwv": "40.6",
+   "title": "Schwing' dich auf zu deinem Gott",
+   "riemenschneider": 142
+  },
+  {
+   "id": "bwv40.8",
+   "file": "bwv40.8.mxl",
+   "bwv": "40.8",
+   "title": "Freuet euch, ihr Christen alle",
+   "riemenschneider": 8
+  },
+  {
+   "id": "bwv41.6",
+   "file": "bwv41.6.mxl",
+   "bwv": "41.6",
+   "title": "Jesu, nun sei gepreiset",
+   "riemenschneider": 11
+  },
+  {
+   "id": "bwv42.7",
+   "file": "bwv42.7.mxl",
+   "bwv": "42.7",
+   "title": "Verleih' uns Frieden gnädiglich",
+   "riemenschneider": 91
+  },
+  {
+   "id": "bwv43.11",
+   "file": "bwv43.11.mxl",
+   "bwv": "43.11",
+   "title": "Ermuntre dich, mein schwacher Geist",
+   "riemenschneider": 102
+  },
+  {
+   "id": "bwv44.7",
+   "file": "bwv44.7.mxl",
+   "bwv": "44.7",
+   "title": "Nun ruhen alle Wälder",
+   "riemenschneider": 355
+  },
+  {
+   "id": "bwv45.7",
+   "file": "bwv45.7.mxl",
+   "bwv": "45.7",
+   "title": "O Gott, du frommer Gott",
+   "riemenschneider": 85
+  },
+  {
+   "id": "bwv46.6",
+   "file": "bwv46.6.mxl",
+   "bwv": "46.6",
+   "title": "O großer Gott von Macht",
+   "riemenschneider": 82
+  },
+  {
+   "id": "bwv47.5",
+   "file": "bwv47.5.mxl",
+   "bwv": "47.5",
+   "title": "Warum betrübst du dich, mein Herz",
+   "riemenschneider": 94
+  },
+  {
+   "id": "bwv48.3",
+   "file": "bwv48.3.mxl",
+   "bwv": "48.3",
+   "title": "Ach Gott und Herr, wie groß und schwer",
+   "riemenschneider": 279
+  },
+  {
+   "id": "bwv48.7",
+   "file": "bwv48.7.mxl",
+   "bwv": "48.7",
+   "title": "Herr Jesu Christ, du höchstes Gut",
+   "riemenschneider": 266
+  },
+  {
+   "id": "bwv52.6",
+   "file": "bwv52.6.mxl",
+   "bwv": "52.6",
+   "title": "Chorale from BWV 52 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv55.5",
+   "file": "bwv55.5.mxl",
+   "bwv": "55.5",
+   "title": "Werde munter, mein Gemüte",
+   "riemenschneider": 95
+  },
+  {
+   "id": "bwv56.5",
+   "file": "bwv56.5.mxl",
+   "bwv": "56.5",
+   "title": "Du, o schönes Weltgebäude",
+   "riemenschneider": 87
+  },
+  {
+   "id": "bwv57.8",
+   "file": "bwv57.8.mxl",
+   "bwv": "57.8",
+   "title": "Hast du denn, Jesu, dein Angesicht gänzlich verborgen",
+   "riemenschneider": 90
+  },
+  {
+   "id": "bwv59.3",
+   "file": "bwv59.3.mxl",
+   "bwv": "59.3",
+   "title": "Chorale from BWV 59 (no. 3)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv60.5",
+   "file": "bwv60.5.mxl",
+   "bwv": "60.5",
+   "title": "Es ist genug, so nimm, Herr, meinen Geist",
+   "riemenschneider": 216
+  },
+  {
+   "id": "bwv62.6",
+   "file": "bwv62.6.mxl",
+   "bwv": "62.6",
+   "title": "Nun komm, der Heiden Heiland",
+   "riemenschneider": 170
+  },
+  {
+   "id": "bwv64.2",
+   "file": "bwv64.2.mxl",
+   "bwv": "64.2",
+   "title": "Gelobet seist du, Jesu Christ",
+   "riemenschneider": 160
+  },
+  {
+   "id": "bwv64.4",
+   "file": "bwv64.4.mxl",
+   "bwv": "64.4",
+   "title": "Was frag' ich nach der Welt",
+   "riemenschneider": 255
+  },
+  {
+   "id": "bwv64.8",
+   "file": "bwv64.8.mxl",
+   "bwv": "64.8",
+   "title": "Jesu, meine Freude",
+   "riemenschneider": 138
+  },
+  {
+   "id": "bwv65.2",
+   "file": "bwv65.2.mxl",
+   "bwv": "65.2",
+   "title": "Puer natus in Bethlehem",
+   "riemenschneider": 12
+  },
+  {
+   "id": "bwv65.7",
+   "file": "bwv65.7.mxl",
+   "bwv": "65.7",
+   "title": "Was mein Gott will, das g'scheh' allzeit",
+   "riemenschneider": 41
+  },
+  {
+   "id": "bwv66.6",
+   "file": "bwv66.6.mxl",
+   "bwv": "66.6",
+   "title": "Chorale from BWV 66 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv67.7",
+   "file": "bwv67.7.mxl",
+   "bwv": "67.7",
+   "title": "Du Friedefürst, Herr Jesu Christ",
+   "riemenschneider": 42
+  },
+  {
+   "id": "bwv69.6-a",
+   "file": "bwv69.6-a.mxl",
+   "bwv": "69.6-a",
+   "title": "Was Gott tut, das ist wohlgetan",
+   "riemenschneider": 293
+  },
+  {
+   "id": "bwv70.7",
+   "file": "bwv70.7.mxl",
+   "bwv": "70.7",
+   "title": "Chorale from BWV 70 (no. 7)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv70.11",
+   "file": "bwv70.11.mxl",
+   "bwv": "70.11",
+   "title": "Meinen Jesum laß' ich nicht, weil",
+   "riemenschneider": 348
+  },
+  {
+   "id": "bwv72.6",
+   "file": "bwv72.6.mxl",
+   "bwv": "72.6",
+   "title": "Chorale from BWV 72 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv73.5",
+   "file": "bwv73.5.mxl",
+   "bwv": "73.5",
+   "title": "Von Gott will ich nicht lassen",
+   "riemenschneider": 191
+  },
+  {
+   "id": "bwv74.8",
+   "file": "bwv74.8.mxl",
+   "bwv": "74.8",
+   "title": "Kommt her zu mir, spricht Gottes Sohn",
+   "riemenschneider": 370
+  },
+  {
+   "id": "bwv77.6",
+   "file": "bwv77.6.mxl",
+   "bwv": "77.6",
+   "title": "Ach Gott, vom Himmel sieh' darein",
+   "riemenschneider": 253
+  },
+  {
+   "id": "bwv78.7",
+   "file": "bwv78.7.mxl",
+   "bwv": "78.7",
+   "title": "Jesu, der du meine Seele",
+   "riemenschneider": 297
+  },
+  {
+   "id": "bwv79.3",
+   "file": "bwv79.3.mxl",
+   "bwv": "79.3",
+   "title": "Chorale from BWV 79 (no. 3)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv79.6",
+   "file": "bwv79.6.mxl",
+   "bwv": "79.6",
+   "title": "Chorale from BWV 79 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv80.8",
+   "file": "bwv80.8.mxl",
+   "bwv": "80.8",
+   "title": "Ein' feste Burg ist unser Gott",
+   "riemenschneider": 273
+  },
+  {
+   "id": "bwv81.7",
+   "file": "bwv81.7.mxl",
+   "bwv": "81.7",
+   "title": "Jesu, meine Freude",
+   "riemenschneider": 324
+  },
+  {
+   "id": "bwv83.5",
+   "file": "bwv83.5.mxl",
+   "bwv": "83.5",
+   "title": "Mit Fried' und Freud' ich fahr' dahin",
+   "riemenschneider": 325
+  },
+  {
+   "id": "bwv84.5",
+   "file": "bwv84.5.mxl",
+   "bwv": "84.5",
+   "title": "Wer nur den lieben Gott läßt walten",
+   "riemenschneider": 112
+  },
+  {
+   "id": "bwv85.6",
+   "file": "bwv85.6.mxl",
+   "bwv": "85.6",
+   "title": "Ist Gott mein Schild und Helfersmann",
+   "riemenschneider": 122
+  },
+  {
+   "id": "bwv86.6",
+   "file": "bwv86.6.mxl",
+   "bwv": "86.6",
+   "title": "Es ist das Heil uns kommen her",
+   "riemenschneider": 4
+  },
+  {
+   "id": "bwv87.7",
+   "file": "bwv87.7.mxl",
+   "bwv": "87.7",
+   "title": "Jesu, meine Freude",
+   "riemenschneider": 96
+  },
+  {
+   "id": "bwv88.7",
+   "file": "bwv88.7.mxl",
+   "bwv": "88.7",
+   "title": "Wer nur den lieben Gott läßt walten",
+   "riemenschneider": 104
+  },
+  {
+   "id": "bwv89.6",
+   "file": "bwv89.6.mxl",
+   "bwv": "89.6",
+   "title": "Wo soll ich fliehen hin",
+   "riemenschneider": 281
+  },
+  {
+   "id": "bwv90.5",
+   "file": "bwv90.5.mxl",
+   "bwv": "90.5",
+   "title": "Vater unser im Himmelreich",
+   "riemenschneider": 267
+  },
+  {
+   "id": "bwv91.6",
+   "file": "bwv91.6.mxl",
+   "bwv": "91.6",
+   "title": "Gelobet seist du, Jesu Christ",
+   "riemenschneider": 51
+  },
+  {
+   "id": "bwv92.9",
+   "file": "bwv92.9.mxl",
+   "bwv": "92.9",
+   "title": "Chorale from BWV 92 (no. 9)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv93.7",
+   "file": "bwv93.7.mxl",
+   "bwv": "93.7",
+   "title": "Chorale from BWV 93 (no. 7)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv94.8",
+   "file": "bwv94.8.mxl",
+   "bwv": "94.8",
+   "title": "Was frag' ich nach der Welt",
+   "riemenschneider": 291
+  },
+  {
+   "id": "bwv95.7",
+   "file": "bwv95.7.mxl",
+   "bwv": "95.7",
+   "title": "Chorale from BWV 95 (no. 7)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv96.6",
+   "file": "bwv96.6.mxl",
+   "bwv": "96.6",
+   "title": "Herr Christ, der ein'ge Gott'ssohn",
+   "riemenschneider": 303
+  },
+  {
+   "id": "bwv97.9",
+   "file": "bwv97.9.mxl",
+   "bwv": "97.9",
+   "title": "Chorale from BWV 97 (no. 9)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv99.6",
+   "file": "bwv99.6.mxl",
+   "bwv": "99.6",
+   "title": "Chorale from BWV 99 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv101.7",
+   "file": "bwv101.7.mxl",
+   "bwv": "101.7",
+   "title": "Nimm von uns, Herr, du treuer Gott",
+   "riemenschneider": 292
+  },
+  {
+   "id": "bwv102.7",
+   "file": "bwv102.7.mxl",
+   "bwv": "102.7",
+   "title": "Vater unser im Himmelreich",
+   "riemenschneider": 110
+  },
+  {
+   "id": "bwv103.6",
+   "file": "bwv103.6.mxl",
+   "bwv": "103.6",
+   "title": "Was mein Gott will, das g'scheh' allzeit",
+   "riemenschneider": 120
+  },
+  {
+   "id": "bwv104.6",
+   "file": "bwv104.6.mxl",
+   "bwv": "104.6",
+   "title": "Allein Gott in der Höh' sei Ehr'",
+   "riemenschneider": 125
+  },
+  {
+   "id": "bwv108.6",
+   "file": "bwv108.6.mxl",
+   "bwv": "108.6",
+   "title": "Kommt her zu mir, spricht Gottes Sohn",
+   "riemenschneider": 45
+  },
+  {
+   "id": "bwv110.7",
+   "file": "bwv110.7.mxl",
+   "bwv": "110.7",
+   "title": "Wir Christenleut'",
+   "riemenschneider": 55
+  },
+  {
+   "id": "bwv111.6",
+   "file": "bwv111.6.mxl",
+   "bwv": "111.6",
+   "title": "Chorale from BWV 111 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv112.5",
+   "file": "bwv112.5.mxl",
+   "bwv": "112.5",
+   "title": "Allein Gott in der Höh' sei Ehr'",
+   "riemenschneider": 313
+  },
+  {
+   "id": "bwv112.5-sc",
+   "file": "bwv112.5-sc.mxl",
+   "bwv": "112.5-sc",
+   "title": "Allein Gott in der Höh' sei Ehr'",
+   "riemenschneider": 313
+  },
+  {
+   "id": "bwv113.8",
+   "file": "bwv113.8.mxl",
+   "bwv": "113.8",
+   "title": "Herr Jesu Christ, du höchstes Gut",
+   "riemenschneider": 294
+  },
+  {
+   "id": "bwv114.7",
+   "file": "bwv114.7.mxl",
+   "bwv": "114.7",
+   "title": "Ach, lieben Christen, seid getrost",
+   "riemenschneider": 301
+  },
+  {
+   "id": "bwv115.6",
+   "file": "bwv115.6.mxl",
+   "bwv": "115.6",
+   "title": "Straf' mich nicht in deinem Zorn",
+   "riemenschneider": 38
+  },
+  {
+   "id": "bwv116.6",
+   "file": "bwv116.6.mxl",
+   "bwv": "116.6",
+   "title": "Chorale from BWV 116 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv117.4",
+   "file": "bwv117.4.mxl",
+   "bwv": "117.4",
+   "title": "Sei Lob und Ehr' dem höchsten Gut",
+   "riemenschneider": 354
+  },
+  {
+   "id": "bwv119.9",
+   "file": "bwv119.9.mxl",
+   "bwv": "119.9",
+   "title": "Chorale from BWV 119 (no. 9)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv120.6",
+   "file": "bwv120.6.mxl",
+   "bwv": "120.6",
+   "title": "Chorale from BWV 120 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv120.8-a",
+   "file": "bwv120.8-a.mxl",
+   "bwv": "120.8-a",
+   "title": "Chorale from BWV 120 (no. 8)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv121.6",
+   "file": "bwv121.6.mxl",
+   "bwv": "121.6",
+   "title": "Christum wir sollen loben schon",
+   "riemenschneider": 56
+  },
+  {
+   "id": "bwv122.6",
+   "file": "bwv122.6.mxl",
+   "bwv": "122.6",
+   "title": "Das neugeborne Kindelein",
+   "riemenschneider": 53
+  },
+  {
+   "id": "bwv123.6",
+   "file": "bwv123.6.mxl",
+   "bwv": "123.6",
+   "title": "Liebster Immanuel, Herzog der Frommen",
+   "riemenschneider": 194
+  },
+  {
+   "id": "bwv124.6",
+   "file": "bwv124.6.mxl",
+   "bwv": "124.6",
+   "title": "Chorale from BWV 124 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv125.6",
+   "file": "bwv125.6.mxl",
+   "bwv": "125.6",
+   "title": "Chorale from BWV 125 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv126.6",
+   "file": "bwv126.6.mxl",
+   "bwv": "126.6",
+   "title": "Verleih' uns Frieden gnädiglich",
+   "riemenschneider": 215
+  },
+  {
+   "id": "bwv127.5",
+   "file": "bwv127.5.mxl",
+   "bwv": "127.5",
+   "title": "Herr Jesu Christ, wahr'r Mensch und Gott",
+   "riemenschneider": 284
+  },
+  {
+   "id": "bwv128.5",
+   "file": "bwv128.5.mxl",
+   "bwv": "128.5",
+   "title": "Chorale from BWV 128 (no. 5)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv130.6",
+   "file": "bwv130.6.mxl",
+   "bwv": "130.6",
+   "title": "Chorale from BWV 130 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv133.6",
+   "file": "bwv133.6.mxl",
+   "bwv": "133.6",
+   "title": "Ich freue mich in dir",
+   "riemenschneider": 60
+  },
+  {
+   "id": "bwv135.6",
+   "file": "bwv135.6.mxl",
+   "bwv": "135.6",
+   "title": "Chorale from BWV 135 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv136.6",
+   "file": "bwv136.6.mxl",
+   "bwv": "136.6",
+   "title": "Wo soll ich fliehen hin",
+   "riemenschneider": 331
+  },
+  {
+   "id": "bwv137.5",
+   "file": "bwv137.5.mxl",
+   "bwv": "137.5",
+   "title": "Chorale from BWV 137 (no. 5)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv139.6",
+   "file": "bwv139.6.mxl",
+   "bwv": "139.6",
+   "title": "Chorale from BWV 139 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv140.7",
+   "file": "bwv140.7.mxl",
+   "bwv": "140.7",
+   "title": "Wachet auf, ruft uns die Stimme",
+   "riemenschneider": 179
+  },
+  {
+   "id": "bwv144.3",
+   "file": "bwv144.3.mxl",
+   "bwv": "144.3",
+   "title": "Was Gott tut, das ist wohlgetan",
+   "riemenschneider": 65
+  },
+  {
+   "id": "bwv144.6",
+   "file": "bwv144.6.mxl",
+   "bwv": "144.6",
+   "title": "Was mein Gott will, das g'scheh' allzeit",
+   "riemenschneider": 265
+  },
+  {
+   "id": "bwv145-a",
+   "file": "bwv145-a.mxl",
+   "bwv": "145-a",
+   "title": "Jesus, meine Zuversicht",
+   "riemenschneider": 338
+  },
+  {
+   "id": "bwv145.5",
+   "file": "bwv145.5.mxl",
+   "bwv": "145.5",
+   "title": "Erschienen ist der herrliche Tag",
+   "riemenschneider": 17
+  },
+  {
+   "id": "bwv146.8",
+   "file": "bwv146.8.mxl",
+   "bwv": "146.8",
+   "title": "Chorale from BWV 146 (no. 8)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv148.6",
+   "file": "bwv148.6.mxl",
+   "bwv": "148.6",
+   "title": "Wo soll ich fliehen hin",
+   "riemenschneider": 25
+  },
+  {
+   "id": "bwv149.7",
+   "file": "bwv149.7.mxl",
+   "bwv": "149.7",
+   "title": "Chorale from BWV 149 (no. 7)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv151.5",
+   "file": "bwv151.5.mxl",
+   "bwv": "151.5",
+   "title": "Lobt Gott, ihr Christen, allzugleich",
+   "riemenschneider": 54
+  },
+  {
+   "id": "bwv153.1",
+   "file": "bwv153.1.mxl",
+   "bwv": "153.1",
+   "title": "Ach Gott, vom Himmel sieh' darein",
+   "riemenschneider": 3
+  },
+  {
+   "id": "bwv153.5",
+   "file": "bwv153.5.mxl",
+   "bwv": "153.5",
+   "title": "Herzlich tut mich verlangen",
+   "riemenschneider": 21
+  },
+  {
+   "id": "bwv153.9",
+   "file": "bwv153.9.mxl",
+   "bwv": "153.9",
+   "title": "Ach Gott, wie manches Herzeleid",
+   "riemenschneider": 217
+  },
+  {
+   "id": "bwv154.3",
+   "file": "bwv154.3.mxl",
+   "bwv": "154.3",
+   "title": "Werde munter, mein Gemüte",
+   "riemenschneider": 233
+  },
+  {
+   "id": "bwv154.8",
+   "file": "bwv154.8.mxl",
+   "bwv": "154.8",
+   "title": "Meinen Jesum laß' ich nicht, weil er sich für mich gegeben",
+   "riemenschneider": 152
+  },
+  {
+   "id": "bwv155.5",
+   "file": "bwv155.5.mxl",
+   "bwv": "155.5",
+   "title": "Es ist das Heil uns kommen her",
+   "riemenschneider": 335
+  },
+  {
+   "id": "bwv156.6",
+   "file": "bwv156.6.mxl",
+   "bwv": "156.6",
+   "title": "Herr, wie du willst, so schick's mit mir",
+   "riemenschneider": 317
+  },
+  {
+   "id": "bwv157.5",
+   "file": "bwv157.5.mxl",
+   "bwv": "157.5",
+   "title": "Chorale from BWV 157 (no. 5)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv158.4",
+   "file": "bwv158.4.mxl",
+   "bwv": "158.4",
+   "title": "Christ lag in Todesbanden",
+   "riemenschneider": 261
+  },
+  {
+   "id": "bwv159.5",
+   "file": "bwv159.5.mxl",
+   "bwv": "159.5",
+   "title": "Jesu Leiden, Pein und Tod",
+   "riemenschneider": 61
+  },
+  {
+   "id": "bwv161.6",
+   "file": "bwv161.6.mxl",
+   "bwv": "161.6",
+   "title": "Befiehl du deine Wege",
+   "riemenschneider": 270
+  },
+  {
+   "id": "bwv162.6-lpz",
+   "file": "bwv162.6-lpz.mxl",
+   "bwv": "162.6-lpz",
+   "title": "Chorale from BWV 162 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv164.6",
+   "file": "bwv164.6.mxl",
+   "bwv": "164.6",
+   "title": "Herr Christ, der ein'ge Gott's-Sohn",
+   "riemenschneider": 101
+  },
+  {
+   "id": "bwv165.6",
+   "file": "bwv165.6.mxl",
+   "bwv": "165.6",
+   "title": "Chorale from BWV 165 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv166.6",
+   "file": "bwv166.6.mxl",
+   "bwv": "166.6",
+   "title": "Wer weiß, wie nahe mir mein Ende",
+   "riemenschneider": 204
+  },
+  {
+   "id": "bwv168.6",
+   "file": "bwv168.6.mxl",
+   "bwv": "168.6",
+   "title": "O Jesu Christ, du höchstes Gut",
+   "riemenschneider": 92
+  },
+  {
+   "id": "bwv169.7",
+   "file": "bwv169.7.mxl",
+   "bwv": "169.7",
+   "title": "Nun bitten wir den heiligen Geist",
+   "riemenschneider": 97
+  },
+  {
+   "id": "bwv171.6",
+   "file": "bwv171.6.mxl",
+   "bwv": "171.6",
+   "title": "Chorale from BWV 171 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv172.6",
+   "file": "bwv172.6.mxl",
+   "bwv": "172.6",
+   "title": "Wie schön leuchtet der Morgenstern",
+   "riemenschneider": 323
+  },
+  {
+   "id": "bwv174.5",
+   "file": "bwv174.5.mxl",
+   "bwv": "174.5",
+   "title": "Herzlich lieb hab' ich dich, o Herr",
+   "riemenschneider": 58
+  },
+  {
+   "id": "bwv175.7",
+   "file": "bwv175.7.mxl",
+   "bwv": "175.7",
+   "title": "Chorale from BWV 175 (no. 7)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv176.6",
+   "file": "bwv176.6.mxl",
+   "bwv": "176.6",
+   "title": "Christ, unser Herr, zum Jordan kam",
+   "riemenschneider": 119
+  },
+  {
+   "id": "bwv177.4",
+   "file": "bwv177.4.mxl",
+   "bwv": "177.4",
+   "title": "Sei Lob und Ehr' dem höchsten Gut",
+   "riemenschneider": 248
+  },
+  {
+   "id": "bwv177.5",
+   "file": "bwv177.5.mxl",
+   "bwv": "177.5",
+   "title": "Ich ruf' zu dir, Herr Jesu Christ",
+   "riemenschneider": 71
+  },
+  {
+   "id": "bwv178.7",
+   "file": "bwv178.7.mxl",
+   "bwv": "178.7",
+   "title": "Chorale from BWV 178 (no. 7)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv179.6",
+   "file": "bwv179.6.mxl",
+   "bwv": "179.6",
+   "title": "Wer nur den lieben Gott läßt walten",
+   "riemenschneider": 339
+  },
+  {
+   "id": "bwv180.7",
+   "file": "bwv180.7.mxl",
+   "bwv": "180.7",
+   "title": "Schmücke dich, o liebe Seele",
+   "riemenschneider": 22
+  },
+  {
+   "id": "bwv183.5",
+   "file": "bwv183.5.mxl",
+   "bwv": "183.5",
+   "title": "Helft mir Gott's Güte preisen",
+   "riemenschneider": 123
+  },
+  {
+   "id": "bwv184.5",
+   "file": "bwv184.5.mxl",
+   "bwv": "184.5",
+   "title": "O Herre Gott, dein göttlich Wort",
+   "riemenschneider": 14
+  },
+  {
+   "id": "bwv185.6",
+   "file": "bwv185.6.mxl",
+   "bwv": "185.6",
+   "title": "Chorale from BWV 185 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv187.7",
+   "file": "bwv187.7.mxl",
+   "bwv": "187.7",
+   "title": "Singen wir aus Herzensgrund",
+   "riemenschneider": 109
+  },
+  {
+   "id": "bwv188.6",
+   "file": "bwv188.6.mxl",
+   "bwv": "188.6",
+   "title": "Chorale from BWV 188 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv190.7",
+   "file": "bwv190.7.mxl",
+   "bwv": "190.7",
+   "title": "Jesu, nun sei gepreiset",
+   "riemenschneider": 327
+  },
+  {
+   "id": "bwv190.7-inst",
+   "file": "bwv190.7-inst.mxl",
+   "bwv": "190.7-inst",
+   "title": "Chorale from BWV 190 (no. 7)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv194.6",
+   "file": "bwv194.6.mxl",
+   "bwv": "194.6",
+   "title": "Freu' dich sehr, o meine Seele",
+   "riemenschneider": 64
+  },
+  {
+   "id": "bwv194.12",
+   "file": "bwv194.12.mxl",
+   "bwv": "194.12",
+   "title": "Wach' auf, mein Herz, und singe",
+   "riemenschneider": 93
+  },
+  {
+   "id": "bwv195.6",
+   "file": "bwv195.6.mxl",
+   "bwv": "195.6",
+   "title": "Chorale from BWV 195 (no. 6)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv197.5",
+   "file": "bwv197.5.mxl",
+   "bwv": "197.5",
+   "title": "Nun bitten wir den heiligen Geist",
+   "riemenschneider": 84
+  },
+  {
+   "id": "bwv197.7-a",
+   "file": "bwv197.7-a.mxl",
+   "bwv": "197.7-a",
+   "title": "Chorale from BWV 197 (no. 7)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv197.10",
+   "file": "bwv197.10.mxl",
+   "bwv": "197.10",
+   "title": "Wer nur den lieben Gott läßt walten",
+   "riemenschneider": 62
+  },
+  {
+   "id": "bwv226.2",
+   "file": "bwv226.2.mxl",
+   "bwv": "226.2",
+   "title": "Komm, heiliger Geist, Herre Gott",
+   "riemenschneider": 69
+  },
+  {
+   "id": "bwv227.1",
+   "file": "bwv227.1.mxl",
+   "bwv": "227.1",
+   "title": "Jesu, meine Freude",
+   "riemenschneider": 263
+  },
+  {
+   "id": "bwv227.3",
+   "file": "bwv227.3.mxl",
+   "bwv": "227.3",
+   "title": "Chorale from BWV 227 (no. 3)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv227.7",
+   "file": "bwv227.7.mxl",
+   "bwv": "227.7",
+   "title": "Jesu, meine Freude",
+   "riemenschneider": 283
+  },
+  {
+   "id": "bwv227.11",
+   "file": "bwv227.11.mxl",
+   "bwv": "227.11",
+   "title": "Jesu, meine Freude",
+   "riemenschneider": 263
+  },
+  {
+   "id": "bwv229.2",
+   "file": "bwv229.2.mxl",
+   "bwv": "229.2",
+   "title": "Chorale from BWV 229 (no. 2)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv244.3",
+   "file": "bwv244.3.mxl",
+   "bwv": "244.3",
+   "title": "Herzliebster Jesu, was hast du verbrochen",
+   "riemenschneider": 78
+  },
+  {
+   "id": "bwv244.10",
+   "file": "bwv244.10.mxl",
+   "bwv": "244.10",
+   "title": "Nun ruhen alle Wälder",
+   "riemenschneider": 117
+  },
+  {
+   "id": "bwv244.15",
+   "file": "bwv244.15.mxl",
+   "bwv": "244.15",
+   "title": "O Haupt voll Blut und Wunden",
+   "riemenschneider": 98
+  },
+  {
+   "id": "bwv244.17",
+   "file": "bwv244.17.mxl",
+   "bwv": "244.17",
+   "title": "Chorale from BWV 244 (no. 17)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv244.25",
+   "file": "bwv244.25.mxl",
+   "bwv": "244.25",
+   "title": "Was mein Gott will, das g'scheh' allezeit",
+   "riemenschneider": 115
+  },
+  {
+   "id": "bwv244.29-a",
+   "file": "bwv244.29-a.mxl",
+   "bwv": "244.29-a",
+   "title": "Chorale from BWV 244 (no. 29)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv244.32",
+   "file": "bwv244.32.mxl",
+   "bwv": "244.32",
+   "title": "In dich hab' ich gehoffet, Herr",
+   "riemenschneider": 118
+  },
+  {
+   "id": "bwv244.37",
+   "file": "bwv244.37.mxl",
+   "bwv": "244.37",
+   "title": "In allen meinen Taten",
+   "riemenschneider": 50
+  },
+  {
+   "id": "bwv244.40",
+   "file": "bwv244.40.mxl",
+   "bwv": "244.40",
+   "title": "Werde munter, mein Gemüte",
+   "riemenschneider": 121
+  },
+  {
+   "id": "bwv244.44",
+   "file": "bwv244.44.mxl",
+   "bwv": "244.44",
+   "title": "O Haupt voll Blut und Wunden",
+   "riemenschneider": 80
+  },
+  {
+   "id": "bwv244.46",
+   "file": "bwv244.46.mxl",
+   "bwv": "244.46",
+   "title": "Herzliebster Jesu, was hast du verbrochen",
+   "riemenschneider": 105
+  },
+  {
+   "id": "bwv244.54",
+   "file": "bwv244.54.mxl",
+   "bwv": "244.54",
+   "title": "O Haupt voll Blut und Wunden",
+   "riemenschneider": 74
+  },
+  {
+   "id": "bwv244.62",
+   "file": "bwv244.62.mxl",
+   "bwv": "244.62",
+   "title": "O Haupt voll Blut und Wunden",
+   "riemenschneider": 89
+  },
+  {
+   "id": "bwv245.3",
+   "file": "bwv245.3.mxl",
+   "bwv": "245.3",
+   "title": "Herzliebster Jesu, was hast du verbrochen",
+   "riemenschneider": 59
+  },
+  {
+   "id": "bwv245.5",
+   "file": "bwv245.5.mxl",
+   "bwv": "245.5",
+   "title": "Chorale from BWV 245 (no. 5)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv245.11",
+   "file": "bwv245.11.mxl",
+   "bwv": "245.11",
+   "title": "Nun ruhen alle Wälder",
+   "riemenschneider": 63
+  },
+  {
+   "id": "bwv245.14",
+   "file": "bwv245.14.mxl",
+   "bwv": "245.14",
+   "title": "Jesu Leiden, Pein und Tod",
+   "riemenschneider": 83
+  },
+  {
+   "id": "bwv245.15",
+   "file": "bwv245.15.mxl",
+   "bwv": "245.15",
+   "title": "Christus, der uns selig macht",
+   "riemenschneider": 81
+  },
+  {
+   "id": "bwv245.17",
+   "file": "bwv245.17.mxl",
+   "bwv": "245.17",
+   "title": "Herzliebster Jesu, was hast du verbrochen",
+   "riemenschneider": 111
+  },
+  {
+   "id": "bwv245.22",
+   "file": "bwv245.22.mxl",
+   "bwv": "245.22",
+   "title": "Mach's mit mir, Gott, nach deiner Güt'",
+   "riemenschneider": 310
+  },
+  {
+   "id": "bwv245.26",
+   "file": "bwv245.26.mxl",
+   "bwv": "245.26",
+   "title": "Valet will ich dir geben",
+   "riemenschneider": 108
+  },
+  {
+   "id": "bwv245.28",
+   "file": "bwv245.28.mxl",
+   "bwv": "245.28",
+   "title": "Jesu Leiden, Pein und Tod",
+   "riemenschneider": 106
+  },
+  {
+   "id": "bwv245.37",
+   "file": "bwv245.37.mxl",
+   "bwv": "245.37",
+   "title": "Christus, der uns selig macht",
+   "riemenschneider": 113
+  },
+  {
+   "id": "bwv245.40",
+   "file": "bwv245.40.mxl",
+   "bwv": "245.40",
+   "title": "Herzlich lieb hab' ich dich, o Herr",
+   "riemenschneider": 107
+  },
+  {
+   "id": "bwv248.5",
+   "file": "bwv248.5.mxl",
+   "bwv": "248.5",
+   "title": "O Haupt voll Blut und Wunden",
+   "riemenschneider": 345
+  },
+  {
+   "id": "bwv248.9-1",
+   "file": "bwv248.9-1.mxl",
+   "bwv": "248.9-1",
+   "title": "Vom Himmel hoch, da komm' ich her",
+   "riemenschneider": 46
+  },
+  {
+   "id": "bwv248.9-s",
+   "file": "bwv248.9-s.mxl",
+   "bwv": "248.9-s",
+   "title": "Chorale from BWV 248 (no. 9)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv248.12-2",
+   "file": "bwv248.12-2.mxl",
+   "bwv": "248.12-2",
+   "title": "Ermuntre dich, mein schwacher Geist",
+   "riemenschneider": 9
+  },
+  {
+   "id": "bwv248.17",
+   "file": "bwv248.17.mxl",
+   "bwv": "248.17",
+   "title": "Chorale from BWV 248 (no. 17)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv248.23-2",
+   "file": "bwv248.23-2.mxl",
+   "bwv": "248.23-2",
+   "title": "Vom Himmel hoch, da komm' ich her",
+   "riemenschneider": 344
+  },
+  {
+   "id": "bwv248.23-s",
+   "file": "bwv248.23-s.mxl",
+   "bwv": "248.23-s",
+   "title": "Chorale from BWV 248 (no. 23)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv248.28",
+   "file": "bwv248.28.mxl",
+   "bwv": "248.28",
+   "title": "Chorale from BWV 248 (no. 28)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv248.33-3",
+   "file": "bwv248.33-3.mxl",
+   "bwv": "248.33-3",
+   "title": "Warum sollt' ich mich denn grämen",
+   "riemenschneider": 139
+  },
+  {
+   "id": "bwv248.35-3",
+   "file": "bwv248.35-3.mxl",
+   "bwv": "248.35-3",
+   "title": "Wir Christenleut'",
+   "riemenschneider": 360
+  },
+  {
+   "id": "bwv248.35-3c",
+   "file": "bwv248.35-3c.mxl",
+   "bwv": "248.35-3c",
+   "title": "Chorale from BWV 248 (no. 35)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv248.42-4",
+   "file": "bwv248.42-4.mxl",
+   "bwv": "248.42-4",
+   "title": "Hilf, Herr Jesu, laß gelingen",
+   "riemenschneider": 368
+  },
+  {
+   "id": "bwv248.42-s",
+   "file": "bwv248.42-s.mxl",
+   "bwv": "248.42-s",
+   "title": "Chorale from BWV 248 (no. 42)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv248.46-5",
+   "file": "bwv248.46-5.mxl",
+   "bwv": "248.46-5",
+   "title": "In dich hab' ich gehoffet, Herr",
+   "riemenschneider": 77
+  },
+  {
+   "id": "bwv248.53-5",
+   "file": "bwv248.53-5.mxl",
+   "bwv": "248.53-5",
+   "title": "Gott des Himmels und der Erden",
+   "riemenschneider": 35
+  },
+  {
+   "id": "bwv248.59-6",
+   "file": "bwv248.59-6.mxl",
+   "bwv": "248.59-6",
+   "title": "Es ist gewißlich an der Zeit",
+   "riemenschneider": 362
+  },
+  {
+   "id": "bwv248.64-6",
+   "file": "bwv248.64-6.mxl",
+   "bwv": "248.64-6",
+   "title": "Chorale from BWV 248 (no. 64)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv248.64-s",
+   "file": "bwv248.64-s.mxl",
+   "bwv": "248.64-s",
+   "title": "Chorale from BWV 248 (no. 64)",
+   "riemenschneider": null
+  },
+  {
+   "id": "bwv250",
+   "file": "bwv250.mxl",
+   "bwv": "250",
+   "title": "Was Gott tut, das ist wohlgetan",
+   "riemenschneider": 347
+  },
+  {
+   "id": "bwv251",
+   "file": "bwv251.mxl",
+   "bwv": "251",
+   "title": "Sei Lob und Ehr' dem höchsten Gut",
+   "riemenschneider": 329
+  },
+  {
+   "id": "bwv252",
+   "file": "bwv252.mxl",
+   "bwv": "252",
+   "title": "Nun danket alle Gott",
+   "riemenschneider": 330
+  },
+  {
+   "id": "bwv253",
+   "file": "bwv253.mxl",
+   "bwv": "253",
+   "title": "Ach bleib bei uns, Herr Jesu Christ",
+   "riemenschneider": 177
+  },
+  {
+   "id": "bwv254",
+   "file": "bwv254.mxl",
+   "bwv": "254",
+   "title": "Ach Gott, erhör' mein Seufzen",
+   "riemenschneider": 186
+  },
+  {
+   "id": "bwv255",
+   "file": "bwv255.mxl",
+   "bwv": "255",
+   "title": "Ach Gott und Herr",
+   "riemenschneider": 40
+  },
+  {
+   "id": "bwv256",
+   "file": "bwv256.mxl",
+   "bwv": "256",
+   "title": "Ach lieben Christen, seid getrost",
+   "riemenschneider": 31
+  },
+  {
+   "id": "bwv257",
+   "file": "bwv257.mxl",
+   "bwv": "257",
+   "title": "Wär' Gott nicht mit uns diese Zeit",
+   "riemenschneider": 285
+  },
+  {
+   "id": "bwv258",
+   "file": "bwv258.mxl",
+   "bwv": "258",
+   "title": "Wo Gott der Herr nicht bei uns hält",
+   "riemenschneider": 336
+  },
+  {
+   "id": "bwv259",
+   "file": "bwv259.mxl",
+   "bwv": "259",
+   "title": "Ach was soll ich Sünder machen",
+   "riemenschneider": 39
+  },
+  {
+   "id": "bwv260",
+   "file": "bwv260.mxl",
+   "bwv": "260",
+   "title": "Allein Gott in der Höh' sei Ehr'",
+   "riemenschneider": 249
+  },
+  {
+   "id": "bwv261",
+   "file": "bwv261.mxl",
+   "bwv": "261",
+   "title": "Allein zu dir, Herr Jesu Christ",
+   "riemenschneider": 359
+  },
+  {
+   "id": "bwv262",
+   "file": "bwv262.mxl",
+   "bwv": "262",
+   "title": "Alle Menschen müssen sterben",
+   "riemenschneider": 153
+  },
+  {
+   "id": "bwv263",
+   "file": "bwv263.mxl",
+   "bwv": "263",
+   "title": "Alles ist an Gottes Segen",
+   "riemenschneider": 128
+  },
+  {
+   "id": "bwv264",
+   "file": "bwv264.mxl",
+   "bwv": "264",
+   "title": "Als der gütige Gott",
+   "riemenschneider": 159
+  },
+  {
+   "id": "bwv265",
+   "file": "bwv265.mxl",
+   "bwv": "265",
+   "title": "Als Jesus Christus in der Nacht",
+   "riemenschneider": 180
+  },
+  {
+   "id": "bwv266",
+   "file": "bwv266.mxl",
+   "bwv": "266",
+   "title": "Als vierzig Tag' nach Ostern war",
+   "riemenschneider": 208
+  },
+  {
+   "id": "bwv267",
+   "file": "bwv267.mxl",
+   "bwv": "267",
+   "title": "An Wasserflüssen Babylon",
+   "riemenschneider": 5
+  },
+  {
+   "id": "bwv268",
+   "file": "bwv268.mxl",
+   "bwv": "268",
+   "title": "Auf, auf, mein Herz, und du, mein ganzer Sinn",
+   "riemenschneider": 124
+  },
+  {
+   "id": "bwv269",
+   "file": "bwv269.mxl",
+   "bwv": "269",
+   "title": "Aus meines Herzens Grunde",
+   "riemenschneider": 1
+  },
+  {
+   "id": "bwv270",
+   "file": "bwv270.mxl",
+   "bwv": "270",
+   "title": "Befiehl du deine Wege",
+   "riemenschneider": 286
+  },
+  {
+   "id": "bwv271",
+   "file": "bwv271.mxl",
+   "bwv": "271",
+   "title": "Befiehl du deine Wege",
+   "riemenschneider": 367
+  },
+  {
+   "id": "bwv272",
+   "file": "bwv272.mxl",
+   "bwv": "272",
+   "title": "Befiehl du deine Wege",
+   "riemenschneider": 340
+  },
+  {
+   "id": "bwv273",
+   "file": "bwv273.mxl",
+   "bwv": "273",
+   "title": "Christ, der du bist der helle Tag",
+   "riemenschneider": 230
+  },
+  {
+   "id": "bwv274",
+   "file": "bwv274.mxl",
+   "bwv": "274",
+   "title": "Christe, der du bist Tag und Licht",
+   "riemenschneider": 245
+  },
+  {
+   "id": "bwv275",
+   "file": "bwv275.mxl",
+   "bwv": "275",
+   "title": "Christe, du Beistand deiner Kreuzgemeine",
+   "riemenschneider": 210
+  },
+  {
+   "id": "bwv276",
+   "file": "bwv276.mxl",
+   "bwv": "276",
+   "title": "Christ ist erstanden",
+   "riemenschneider": 197
+  },
+  {
+   "id": "bwv277",
+   "file": "bwv277.mxl",
+   "bwv": "277",
+   "title": "Christ lag in Todesbanden",
+   "riemenschneider": 15
+  },
+  {
+   "id": "bwv278",
+   "file": "bwv278.mxl",
+   "bwv": "278",
+   "title": "Christ lag in Todesbanden",
+   "riemenschneider": 371
+  },
+  {
+   "id": "bwv279",
+   "file": "bwv279.mxl",
+   "bwv": "279",
+   "title": "Christ lag in Todesbanden",
+   "riemenschneider": 261
+  },
+  {
+   "id": "bwv280",
+   "file": "bwv280.mxl",
+   "bwv": "280",
+   "title": "Christ, unser Herr, zum Jordan kam",
+   "riemenschneider": 66
+  },
+  {
+   "id": "bwv281",
+   "file": "bwv281.mxl",
+   "bwv": "281",
+   "title": "Christus, der ist mein Leben",
+   "riemenschneider": 6
+  },
+  {
+   "id": "bwv282",
+   "file": "bwv282.mxl",
+   "bwv": "282",
+   "title": "Christus, der ist mein Leben",
+   "riemenschneider": 316
+  },
+  {
+   "id": "bwv283",
+   "file": "bwv283.mxl",
+   "bwv": "283",
+   "title": "Christus, der uns selig macht",
+   "riemenschneider": 198
+  },
+  {
+   "id": "bwv284",
+   "file": "bwv284.mxl",
+   "bwv": "284",
+   "title": "Christus ist erstanden, hat überwunden",
+   "riemenschneider": 200
+  },
+  {
+   "id": "bwv285",
+   "file": "bwv285.mxl",
+   "bwv": "285",
+   "title": "Da der Herr Christ zu Tische saß",
+   "riemenschneider": 196
+  },
+  {
+   "id": "bwv286",
+   "file": "bwv286.mxl",
+   "bwv": "286",
+   "title": "Danket dem Herren, denn er ist sehr freundlich",
+   "riemenschneider": 228
+  },
+  {
+   "id": "bwv287",
+   "file": "bwv287.mxl",
+   "bwv": "287",
+   "title": "Dank sei Gott in der Höhe",
+   "riemenschneider": 311
+  },
+  {
+   "id": "bwv288",
+   "file": "bwv288.mxl",
+   "bwv": "288",
+   "title": "Das alte Jahr vergangen ist",
+   "riemenschneider": 162
+  },
+  {
+   "id": "bwv289",
+   "file": "bwv289.mxl",
+   "bwv": "289",
+   "title": "Das alte Jahr vergangen ist",
+   "riemenschneider": 314
+  },
+  {
+   "id": "bwv290",
+   "file": "bwv290.mxl",
+   "bwv": "290",
+   "title": "Das walt' Gott Vater und Gott Sohn",
+   "riemenschneider": 224
+  },
+  {
+   "id": "bwv291",
+   "file": "bwv291.mxl",
+   "bwv": "291",
+   "title": "Das walt' mein Gott",
+   "riemenschneider": 75
+  },
+  {
+   "id": "bwv292",
+   "file": "bwv292.mxl",
+   "bwv": "292",
+   "title": "Den Vater dort oben",
+   "riemenschneider": 239
+  },
+  {
+   "id": "bwv293",
+   "file": "bwv293.mxl",
+   "bwv": "293",
+   "title": "Der du bist drei in Einigkeit",
+   "riemenschneider": 154
+  },
+  {
+   "id": "bwv294",
+   "file": "bwv294.mxl",
+   "bwv": "294",
+   "title": "Der Tag der ist so freudenreich",
+   "riemenschneider": 158
+  },
+  {
+   "id": "bwv295",
+   "file": "bwv295.mxl",
+   "bwv": "295",
+   "title": "Des Heil'gen Geistes reiche Gnad'",
+   "riemenschneider": 207
+  },
+  {
+   "id": "bwv296",
+   "file": "bwv296.mxl",
+   "bwv": "296",
+   "title": "Die Nacht ist kommen",
+   "riemenschneider": 231
+  },
+  {
+   "id": "bwv297",
+   "file": "bwv297.mxl",
+   "bwv": "297",
+   "title": "Die Sonn' hat sich mit ihrem Glanz gewendet",
+   "riemenschneider": 232
+  },
+  {
+   "id": "bwv298",
+   "file": "bwv298.mxl",
+   "bwv": "298",
+   "title": "Dies sind die heil'gen zehn Gebot'",
+   "riemenschneider": 127
+  },
+  {
+   "id": "bwv299",
+   "file": "bwv299.mxl",
+   "bwv": "299",
+   "title": "Dir, dir, Jehova, will ich singen",
+   "riemenschneider": 209
+  },
+  {
+   "id": "bwv300",
+   "file": "bwv300.mxl",
+   "bwv": "300",
+   "title": "Du großer Schmerzensmann",
+   "riemenschneider": 167
+  },
+  {
+   "id": "bwv301",
+   "file": "bwv301.mxl",
+   "bwv": "301",
+   "title": "Du, o schönes Weltgebäude",
+   "riemenschneider": 134
+  },
+  {
+   "id": "bwv302",
+   "file": "bwv302.mxl",
+   "bwv": "302",
+   "title": "Ein' feste Burg ist unser Gott",
+   "riemenschneider": 20
+  },
+  {
+   "id": "bwv303",
+   "file": "bwv303.mxl",
+   "bwv": "303",
+   "title": "Ein' feste Burg ist unser Gott",
+   "riemenschneider": 250
+  },
+  {
+   "id": "bwv304",
+   "file": "bwv304.mxl",
+   "bwv": "304",
+   "title": "Eins ist not, ach Herr, dies Eine",
+   "riemenschneider": 280
+  },
+  {
+   "id": "bwv305",
+   "file": "bwv305.mxl",
+   "bwv": "305",
+   "title": "Erbarm' dich mein, o Herre Gott",
+   "riemenschneider": 34
+  },
+  {
+   "id": "bwv306",
+   "file": "bwv306.mxl",
+   "bwv": "306",
+   "title": "Erstanden ist der heil'ge Christ",
+   "riemenschneider": 176
+  },
+  {
+   "id": "bwv307",
+   "file": "bwv307.mxl",
+   "bwv": "307",
+   "title": "Es ist gewißlich an der Zeit",
+   "riemenschneider": 260
+  },
+  {
+   "id": "bwv308",
+   "file": "bwv308.mxl",
+   "bwv": "308",
+   "title": "Es spricht der Unweisen Mund",
+   "riemenschneider": 27
+  },
+  {
+   "id": "bwv309",
+   "file": "bwv309.mxl",
+   "bwv": "309",
+   "title": "Es steh'n vor Gottes Throne",
+   "riemenschneider": 166
+  },
+  {
+   "id": "bwv310",
+   "file": "bwv310.mxl",
+   "bwv": "310",
+   "title": "Es wird schier der letzte Tag herkommen",
+   "riemenschneider": 238
+  },
+  {
+   "id": "bwv311",
+   "file": "bwv311.mxl",
+   "bwv": "311",
+   "title": "Es woll' uns Gott genädig sein",
+   "riemenschneider": 16
+  },
+  {
+   "id": "bwv312",
+   "file": "bwv312.mxl",
+   "bwv": "312",
+   "title": "Es woll' uns Gott genädig sein",
+   "riemenschneider": 352
+  },
+  {
+   "id": "bwv313",
+   "file": "bwv313.mxl",
+   "bwv": "313",
+   "title": "Für Freuden laßt uns springen",
+   "riemenschneider": 163
+  },
+  {
+   "id": "bwv314",
+   "file": "bwv314.mxl",
+   "bwv": "314",
+   "title": "Gelobet seist du, Jesu Christ",
+   "riemenschneider": 288
+  },
+  {
+   "id": "bwv315",
+   "file": "bwv315.mxl",
+   "bwv": "315",
+   "title": "Gib dich zufrieden und sei stille",
+   "riemenschneider": 271
+  },
+  {
+   "id": "bwv316",
+   "file": "bwv316.mxl",
+   "bwv": "316",
+   "title": "Gott, der du selber bist das Licht",
+   "riemenschneider": 225
+  },
+  {
+   "id": "bwv317",
+   "file": "bwv317.mxl",
+   "bwv": "317",
+   "title": "Gott der Vater wohn' uns bei",
+   "riemenschneider": 135
+  },
+  {
+   "id": "bwv318",
+   "file": "bwv318.mxl",
+   "bwv": "318",
+   "title": "Gottes Sohn ist kommen",
+   "riemenschneider": 18
+  },
+  {
+   "id": "bwv319",
+   "file": "bwv319.mxl",
+   "bwv": "319",
+   "title": "Gott hat das Evangelium",
+   "riemenschneider": 181
+  },
+  {
+   "id": "bwv320",
+   "file": "bwv320.mxl",
+   "bwv": "320",
+   "title": "Gott lebet noch",
+   "riemenschneider": 234
+  },
+  {
+   "id": "bwv321",
+   "file": "bwv321.mxl",
+   "bwv": "321",
+   "title": "Gottlob, es geht nunmehr zu Ende",
+   "riemenschneider": 192
+  },
+  {
+   "id": "bwv322",
+   "file": "bwv322.mxl",
+   "bwv": "322",
+   "title": "Gott sei gelobet und gebenedeiet",
+   "riemenschneider": 70
+  },
+  {
+   "id": "bwv323",
+   "file": "bwv323.mxl",
+   "bwv": "323",
+   "title": "Gott sei uns gnädig und barmherzig",
+   "riemenschneider": 320
+  },
+  {
+   "id": "bwv324",
+   "file": "bwv324.mxl",
+   "bwv": "324",
+   "title": "Meine Seel erhebet den Herrn",
+   "riemenschneider": 130
+  },
+  {
+   "id": "bwv325",
+   "file": "bwv325.mxl",
+   "bwv": "325",
+   "title": "Heilig, heilig",
+   "riemenschneider": 235
+  },
+  {
+   "id": "bwv326",
+   "file": "bwv326.mxl",
+   "bwv": "326",
+   "title": "Herr Gott, dich loben alle wir",
+   "riemenschneider": 164
+  },
+  {
+   "id": "bwv327",
+   "file": "bwv327.mxl",
+   "bwv": "327",
+   "title": "Vor deinen Thron tret' ich hiermit",
+   "riemenschneider": 334
+  },
+  {
+   "id": "bwv328",
+   "file": "bwv328.mxl",
+   "bwv": "328",
+   "title": "Herr Gott, dich loben wir",
+   "riemenschneider": 205
+  },
+  {
+   "id": "bwv329",
+   "file": "bwv329.mxl",
+   "bwv": "329",
+   "title": "Herr, ich denk' an jene Zeit",
+   "riemenschneider": 212
+  },
+  {
+   "id": "bwv330",
+   "file": "bwv330.mxl",
+   "bwv": "330",
+   "title": "Herr, ich habe mißgehandelt",
+   "riemenschneider": 33
+  },
+  {
+   "id": "bwv331",
+   "file": "bwv331.mxl",
+   "bwv": "331",
+   "title": "Herr, ich habe mißgehandelt",
+   "riemenschneider": 287
+  },
+  {
+   "id": "bwv332",
+   "file": "bwv332.mxl",
+   "bwv": "332",
+   "title": "Herr Jesu Christ, dich zu uns wend'",
+   "riemenschneider": 136
+  },
+  {
+   "id": "bwv333",
+   "file": "bwv333.mxl",
+   "bwv": "333",
+   "title": "Herr Jesu Christ, du hast bereit't",
+   "riemenschneider": 226
+  },
+  {
+   "id": "bwv334",
+   "file": "bwv334.mxl",
+   "bwv": "334",
+   "title": "Herr Jesu Christ, du höchstes Gut",
+   "riemenschneider": 73
+  },
+  {
+   "id": "bwv335",
+   "file": "bwv335.mxl",
+   "bwv": "335",
+   "title": "O Jesu, du mein Bräutigam",
+   "riemenschneider": 236
+  },
+  {
+   "id": "bwv336",
+   "file": "bwv336.mxl",
+   "bwv": "336",
+   "title": "Herr Jesu Christ, wahr'r Mensch und Gott",
+   "riemenschneider": 189
+  },
+  {
+   "id": "bwv337",
+   "file": "bwv337.mxl",
+   "bwv": "337",
+   "title": "Herr, nun laß in Friede",
+   "riemenschneider": 190
+  },
+  {
+   "id": "bwv338",
+   "file": "bwv338.mxl",
+   "bwv": "338",
+   "title": "Herr, straf' mich nicht in deinem Zorn",
+   "riemenschneider": 221
+  },
+  {
+   "id": "bwv339",
+   "file": "bwv339.mxl",
+   "bwv": "339",
+   "title": "Wer in dem Schutz des Höchsten ist",
+   "riemenschneider": 144
+  },
+  {
+   "id": "bwv340",
+   "file": "bwv340.mxl",
+   "bwv": "340",
+   "title": "Herzlich lieb hab' ich dich, o Herr",
+   "riemenschneider": 277
+  },
+  {
+   "id": "bwv341",
+   "file": "bwv341.mxl",
+   "bwv": "341",
+   "title": "Heut' ist, o Mensch, ein großer Trauertag",
+   "riemenschneider": 168
+  },
+  {
+   "id": "bwv342",
+   "file": "bwv342.mxl",
+   "bwv": "342",
+   "title": "Heut' triumphieret Gottes Sohn",
+   "riemenschneider": 79
+  },
+  {
+   "id": "bwv343",
+   "file": "bwv343.mxl",
+   "bwv": "343",
+   "title": "Hilf, Gott, daß mir's gelinge",
+   "riemenschneider": 199
+  },
+  {
+   "id": "bwv344",
+   "file": "bwv344.mxl",
+   "bwv": "344",
+   "title": "Hilf, Herr Jesu, laß gelingen",
+   "riemenschneider": 155
+  },
+  {
+   "id": "bwv345",
+   "file": "bwv345.mxl",
+   "bwv": "345",
+   "title": "Ich bin ja, Herr, in deiner Macht",
+   "riemenschneider": 251
+  },
+  {
+   "id": "bwv346",
+   "file": "bwv346.mxl",
+   "bwv": "346",
+   "title": "Ich dank' dir, Gott, für all' Wohltat",
+   "riemenschneider": 223
+  },
+  {
+   "id": "bwv347",
+   "file": "bwv347.mxl",
+   "bwv": "347",
+   "title": "Ich dank' dir, lieber Herre",
+   "riemenschneider": 2
+  },
+  {
+   "id": "bwv348",
+   "file": "bwv348.mxl",
+   "bwv": "348",
+   "title": "Ich dank' dir, lieber Herre",
+   "riemenschneider": 272
+  },
+  {
+   "id": "bwv349",
+   "file": "bwv349.mxl",
+   "bwv": "349",
+   "title": "Ich dank' dir schon durch deinen Sohn",
+   "riemenschneider": 188
+  },
+  {
+   "id": "bwv350",
+   "file": "bwv350.mxl",
+   "bwv": "350",
+   "title": "Ich danke dir, o Gott, in deinem Throne",
+   "riemenschneider": 229
+  },
+  {
+   "id": "bwv351",
+   "file": "bwv351.mxl",
+   "bwv": "351",
+   "title": "Ich hab' mein' Sach' Gott heimgestellt",
+   "riemenschneider": 19
+  },
+  {
+   "id": "bwv352",
+   "file": "bwv352.mxl",
+   "bwv": "352",
+   "title": "Jesu, der du meine Seele",
+   "riemenschneider": 37
+  },
+  {
+   "id": "bwv353",
+   "file": "bwv353.mxl",
+   "bwv": "353",
+   "title": "Jesu, der du meine Seele",
+   "riemenschneider": 269
+  },
+  {
+   "id": "bwv354",
+   "file": "bwv354.mxl",
+   "bwv": "354",
+   "title": "Jesu, der du meine Seele",
+   "riemenschneider": 369
+  },
+  {
+   "id": "bwv355",
+   "file": "bwv355.mxl",
+   "bwv": "355",
+   "title": "Jesu, der du selbst so wohl",
+   "riemenschneider": 169
+  },
+  {
+   "id": "bwv356",
+   "file": "bwv356.mxl",
+   "bwv": "356",
+   "title": "Jesu, du mein liebstes Leben",
+   "riemenschneider": 243
+  },
+  {
+   "id": "bwv357",
+   "file": "bwv357.mxl",
+   "bwv": "357",
+   "title": "Jesu, Jesu, du bist mein",
+   "riemenschneider": 244
+  },
+  {
+   "id": "bwv358",
+   "file": "bwv358.mxl",
+   "bwv": "358",
+   "title": "Jesu, meine Freude",
+   "riemenschneider": 356
+  },
+  {
+   "id": "bwv359",
+   "file": "bwv359.mxl",
+   "bwv": "359",
+   "title": "Jesu, meiner Seelen Wonne",
+   "riemenschneider": 365
+  },
+  {
+   "id": "bwv360",
+   "file": "bwv360.mxl",
+   "bwv": "360",
+   "title": "Jesu, meiner Seelen Wonne",
+   "riemenschneider": 350
+  },
+  {
+   "id": "bwv361",
+   "file": "bwv361.mxl",
+   "bwv": "361",
+   "title": "Jesu, meines Herzens Freud'",
+   "riemenschneider": 264
+  },
+  {
+   "id": "bwv362",
+   "file": "bwv362.mxl",
+   "bwv": "362",
+   "title": "Jesu, nun sei gepreiset",
+   "riemenschneider": 252
+  },
+  {
+   "id": "bwv363",
+   "file": "bwv363.mxl",
+   "bwv": "363",
+   "title": "Jesus Christus, unser Heiland",
+   "riemenschneider": 30
+  },
+  {
+   "id": "bwv364",
+   "file": "bwv364.mxl",
+   "bwv": "364",
+   "title": "Jesus Christus, unser Heiland, der den Tod überwand",
+   "riemenschneider": 174
+  },
+  {
+   "id": "bwv365",
+   "file": "bwv365.mxl",
+   "bwv": "365",
+   "title": "Jesus, meine Zuversicht",
+   "riemenschneider": 175
+  },
+  {
+   "id": "bwv366",
+   "file": "bwv366.mxl",
+   "bwv": "366",
+   "title": "Ihr Gestirn', ihr hohlen Lüfte",
+   "riemenschneider": 161
+  },
+  {
+   "id": "bwv367",
+   "file": "bwv367.mxl",
+   "bwv": "367",
+   "title": "In allen meinen Taten",
+   "riemenschneider": 140
+  },
+  {
+   "id": "bwv368",
+   "file": "bwv368.mxl",
+   "bwv": "368",
+   "title": "In dulci jubilo",
+   "riemenschneider": 143
+  },
+  {
+   "id": "bwv369",
+   "file": "bwv369.mxl",
+   "bwv": "369",
+   "title": "Keinen hat Gott verlassen",
+   "riemenschneider": 129
+  },
+  {
+   "id": "bwv370",
+   "file": "bwv370.mxl",
+   "bwv": "370",
+   "title": "Komm, Gott Schöpfer, heiliger Geist",
+   "riemenschneider": 187
+  },
+  {
+   "id": "bwv371",
+   "file": "bwv371.mxl",
+   "bwv": "371",
+   "title": "Kyrie, Gott Vater in Ewigkeit",
+   "riemenschneider": 132
+  },
+  {
+   "id": "bwv372",
+   "file": "bwv372.mxl",
+   "bwv": "372",
+   "title": "Laß, o Herr, dein Ohr sich neigen",
+   "riemenschneider": 218
+  },
+  {
+   "id": "bwv373",
+   "file": "bwv373.mxl",
+   "bwv": "373",
+   "title": "Liebster Jesu, wir sind hier",
+   "riemenschneider": 131
+  },
+  {
+   "id": "bwv374",
+   "file": "bwv374.mxl",
+   "bwv": "374",
+   "title": "Lobet den Herren, denn er ist sehr freundlich",
+   "riemenschneider": 227
+  },
+  {
+   "id": "bwv375",
+   "file": "bwv375.mxl",
+   "bwv": "375",
+   "title": "Lobt Gott, ihr Christen allzugleich",
+   "riemenschneider": 276
+  },
+  {
+   "id": "bwv376",
+   "file": "bwv376.mxl",
+   "bwv": "376",
+   "title": "Lobt Gott, ihr Christen, allzugleich",
+   "riemenschneider": 342
+  },
+  {
+   "id": "bwv377",
+   "file": "bwv377.mxl",
+   "bwv": "377",
+   "title": "Mach's mit mir, Gott, nach deiner Güt'",
+   "riemenschneider": 44
+  },
+  {
+   "id": "bwv378",
+   "file": "bwv378.mxl",
+   "bwv": "378",
+   "title": "Mein' Augen schließ' ich jetzt in Gottes Namen zu",
+   "riemenschneider": 258
+  },
+  {
+   "id": "bwv379",
+   "file": "bwv379.mxl",
+   "bwv": "379",
+   "title": "Meinen Jesum laß' ich nicht, Jesus",
+   "riemenschneider": 151
+  },
+  {
+   "id": "bwv380",
+   "file": "bwv380.mxl",
+   "bwv": "380",
+   "title": "Meinen Jesum laß ich nicht",
+   "riemenschneider": 299
+  },
+  {
+   "id": "bwv381",
+   "file": "bwv381.mxl",
+   "bwv": "381",
+   "title": "Meines Lebens letzte Zeit",
+   "riemenschneider": 346
+  },
+  {
+   "id": "bwv382",
+   "file": "bwv382.mxl",
+   "bwv": "382",
+   "title": "Mit Fried' und Freud' ich fahr' dahin",
+   "riemenschneider": 49
+  },
+  {
+   "id": "bwv383",
+   "file": "bwv383.mxl",
+   "bwv": "383",
+   "title": "Mitten wir im Leben sind",
+   "riemenschneider": 214
+  },
+  {
+   "id": "bwv384",
+   "file": "bwv384.mxl",
+   "bwv": "384",
+   "title": "Nicht so traurig, nicht so sehr",
+   "riemenschneider": 149
+  },
+  {
+   "id": "bwv385",
+   "file": "bwv385.mxl",
+   "bwv": "385",
+   "title": "Nun bitten wir den heiligen Geist",
+   "riemenschneider": 36
+  },
+  {
+   "id": "bwv386",
+   "file": "bwv386.mxl",
+   "bwv": "386",
+   "title": "Nun danket alle Gott",
+   "riemenschneider": 32
+  },
+  {
+   "id": "bwv387",
+   "file": "bwv387.mxl",
+   "bwv": "387",
+   "title": "Nun freut euch, Gottes Kinder all'",
+   "riemenschneider": 185
+  },
+  {
+   "id": "bwv388",
+   "file": "bwv388.mxl",
+   "bwv": "388",
+   "title": "Nun freut euch, lieben Christen, g'mein",
+   "riemenschneider": 183
+  },
+  {
+   "id": "bwv389",
+   "file": "bwv389.mxl",
+   "bwv": "389",
+   "title": "Nun lob', mein' Seel', den Herren",
+   "riemenschneider": 268
+  },
+  {
+   "id": "bwv390",
+   "file": "bwv390.mxl",
+   "bwv": "390",
+   "title": "Nun lob', mein' Seel', den Herren",
+   "riemenschneider": 296
+  },
+  {
+   "id": "bwv391",
+   "file": "bwv391.mxl",
+   "bwv": "391",
+   "title": "Nun preiset alle Gottes Barmherzigkeit",
+   "riemenschneider": 222
+  },
+  {
+   "id": "bwv392",
+   "file": "bwv392.mxl",
+   "bwv": "392",
+   "title": "Nun ruhen alle Wälder",
+   "riemenschneider": 289
+  },
+  {
+   "id": "bwv393",
+   "file": "bwv393.mxl",
+   "bwv": "393",
+   "title": "O Welt, sieh' hier dein Leben",
+   "riemenschneider": 275
+  },
+  {
+   "id": "bwv394",
+   "file": "bwv394.mxl",
+   "bwv": "394",
+   "title": "O Welt, sieh' hier dein Leben",
+   "riemenschneider": 366
+  },
+  {
+   "id": "bwv395",
+   "file": "bwv395.mxl",
+   "bwv": "395",
+   "title": "O Welt, sieh' hier dein Leben",
+   "riemenschneider": 363
+  },
+  {
+   "id": "bwv396",
+   "file": "bwv396.mxl",
+   "bwv": "396",
+   "title": "Nun sich der Tag geendet hat",
+   "riemenschneider": 240
+  },
+  {
+   "id": "bwv397",
+   "file": "bwv397.mxl",
+   "bwv": "397",
+   "title": "O Ewigkeit, du Donnerwort",
+   "riemenschneider": 274
+  },
+  {
+   "id": "bwv398",
+   "file": "bwv398.mxl",
+   "bwv": "398",
+   "title": "O Gott, du frommer Gott",
+   "riemenschneider": 312
+  },
+  {
+   "id": "bwv399",
+   "file": "bwv399.mxl",
+   "bwv": "399",
+   "title": "O Gott, du frommer Gott",
+   "riemenschneider": 315
+  },
+  {
+   "id": "bwv400",
+   "file": "bwv400.mxl",
+   "bwv": "400",
+   "title": "O Herzensangst, o Bangigkeit",
+   "riemenschneider": 173
+  },
+  {
+   "id": "bwv401",
+   "file": "bwv401.mxl",
+   "bwv": "401",
+   "title": "O Lamm Gottes, unschuldig",
+   "riemenschneider": 165
+  },
+  {
+   "id": "bwv402",
+   "file": "bwv402.mxl",
+   "bwv": "402",
+   "title": "O Mensch, bewein' dein' Sünde groß",
+   "riemenschneider": 201
+  },
+  {
+   "id": "bwv403",
+   "file": "bwv403.mxl",
+   "bwv": "403",
+   "title": "O Mensch, schau' Jesum Christum an",
+   "riemenschneider": 203
+  },
+  {
+   "id": "bwv404",
+   "file": "bwv404.mxl",
+   "bwv": "404",
+   "title": "O Traurigkeit, o Herzeleid",
+   "riemenschneider": 57
+  },
+  {
+   "id": "bwv405",
+   "file": "bwv405.mxl",
+   "bwv": "405",
+   "title": "O wie selig seid ihr doch, ihr Frommen",
+   "riemenschneider": 213
+  },
+  {
+   "id": "bwv406",
+   "file": "bwv406.mxl",
+   "bwv": "406",
+   "title": "O wie selig seid ihr doch, ihr Frommen",
+   "riemenschneider": 219
+  },
+  {
+   "id": "bwv407",
+   "file": "bwv407.mxl",
+   "bwv": "407",
+   "title": "O wir armen Sünder",
+   "riemenschneider": 202
+  },
+  {
+   "id": "bwv408",
+   "file": "bwv408.mxl",
+   "bwv": "408",
+   "title": "Schaut, ihr Sünder",
+   "riemenschneider": 171
+  },
+  {
+   "id": "bwv409",
+   "file": "bwv409.mxl",
+   "bwv": "409",
+   "title": "Seelenbräutigam",
+   "riemenschneider": 141
+  },
+  {
+   "id": "bwv410",
+   "file": "bwv410.mxl",
+   "bwv": "410",
+   "title": "Sei gegrüßet, Jesu gütig",
+   "riemenschneider": 172
+  },
+  {
+   "id": "bwv411",
+   "file": "bwv411.mxl",
+   "bwv": "411",
+   "title": "Singt dem Herrn ein neues Lied",
+   "riemenschneider": 246
+  },
+  {
+   "id": "bwv412",
+   "file": "bwv412.mxl",
+   "bwv": "412",
+   "title": "So gibst du nun, mein Jesu, gute Nacht",
+   "riemenschneider": 206
+  },
+  {
+   "id": "bwv413",
+   "file": "bwv413.mxl",
+   "bwv": "413",
+   "title": "Sollt' ich meinem Gott nicht singen",
+   "riemenschneider": 220
+  },
+  {
+   "id": "bwv414",
+   "file": "bwv414.mxl",
+   "bwv": "414",
+   "title": "Uns ist ein Kindlein heut' gebor'n",
+   "riemenschneider": 148
+  },
+  {
+   "id": "bwv415",
+   "file": "bwv415.mxl",
+   "bwv": "415",
+   "title": "Valet will ich dir geben",
+   "riemenschneider": 24
+  },
+  {
+   "id": "bwv416",
+   "file": "bwv416.mxl",
+   "bwv": "416",
+   "title": "Vater unser im Himmelreich",
+   "riemenschneider": 47
+  },
+  {
+   "id": "bwv417",
+   "file": "bwv417.mxl",
+   "bwv": "417",
+   "title": "Von Gott will ich nicht lassen",
+   "riemenschneider": 364
+  },
+  {
+   "id": "bwv418",
+   "file": "bwv418.mxl",
+   "bwv": "418",
+   "title": "Von Gott will ich nicht lassen",
+   "riemenschneider": 332
+  },
+  {
+   "id": "bwv419",
+   "file": "bwv419.mxl",
+   "bwv": "419",
+   "title": "Von Gott will ich nicht lassen",
+   "riemenschneider": 114
+  },
+  {
+   "id": "bwv420",
+   "file": "bwv420.mxl",
+   "bwv": "420",
+   "title": "Warum betrübst du dich, mein Herz",
+   "riemenschneider": 145
+  },
+  {
+   "id": "bwv421",
+   "file": "bwv421.mxl",
+   "bwv": "421",
+   "title": "Warum betrübst du dich, mein Herz",
+   "riemenschneider": 300
+  },
+  {
+   "id": "bwv422",
+   "file": "bwv422.mxl",
+   "bwv": "422",
+   "title": "Warum sollt' ich mich denn grämen",
+   "riemenschneider": 357
+  },
+  {
+   "id": "bwv423",
+   "file": "bwv423.mxl",
+   "bwv": "423",
+   "title": "Was betrübst du dich, mein Herze",
+   "riemenschneider": 237
+  },
+  {
+   "id": "bwv424",
+   "file": "bwv424.mxl",
+   "bwv": "424",
+   "title": "Was bist du doch, o Seele, so betrübet",
+   "riemenschneider": 193
+  },
+  {
+   "id": "bwv425",
+   "file": "bwv425.mxl",
+   "bwv": "425",
+   "title": "Was willst du dich, o meine Seele, kränken",
+   "riemenschneider": 241
+  },
+  {
+   "id": "bwv426",
+   "file": "bwv426.mxl",
+   "bwv": "426",
+   "title": "Weltlich' Ehr' und zeitlich Gut",
+   "riemenschneider": 211
+  },
+  {
+   "id": "bwv427",
+   "file": "bwv427.mxl",
+   "bwv": "427",
+   "title": "Wenn ich in Angst und Not",
+   "riemenschneider": 147
+  },
+  {
+   "id": "bwv428",
+   "file": "bwv428.mxl",
+   "bwv": "428",
+   "title": "Wenn mein Stündlein vorhanden ist",
+   "riemenschneider": 322
+  },
+  {
+   "id": "bwv429",
+   "file": "bwv429.mxl",
+   "bwv": "429",
+   "title": "Wenn mein Stündlein vorhanden ist",
+   "riemenschneider": 52
+  },
+  {
+   "id": "bwv430",
+   "file": "bwv430.mxl",
+   "bwv": "430",
+   "title": "Wenn mein Stündlein vorhanden ist",
+   "riemenschneider": 351
+  },
+  {
+   "id": "bwv431",
+   "file": "bwv431.mxl",
+   "bwv": "431",
+   "title": "Wenn wir in höchsten Nöten sein",
+   "riemenschneider": 68
+  },
+  {
+   "id": "bwv432",
+   "file": "bwv432.mxl",
+   "bwv": "432",
+   "title": "Wenn wir in höchsten Nöten sein",
+   "riemenschneider": 247
+  },
+  {
+   "id": "bwv433",
+   "file": "bwv433.mxl",
+   "bwv": "433",
+   "title": "Wer Gott vertraut, hat wohl gebaut",
+   "riemenschneider": 137
+  },
+  {
+   "id": "bwv434",
+   "file": "bwv434.mxl",
+   "bwv": "434",
+   "title": "Wer nur den lieben Gott läßt walten",
+   "riemenschneider": 146
+  },
+  {
+   "id": "bwv435",
+   "file": "bwv435.mxl",
+   "bwv": "435",
+   "title": "Wie bist du, Seele, in mir so gar betrübt",
+   "riemenschneider": 242
+  },
+  {
+   "id": "bwv436",
+   "file": "bwv436.mxl",
+   "bwv": "436",
+   "title": "Wie schön leuchtet der Morgenstern",
+   "riemenschneider": 278
+  },
+  {
+   "id": "bwv437",
+   "file": "bwv437.mxl",
+   "bwv": "437",
+   "title": "Wir glauben all' an einen Gott",
+   "riemenschneider": 133
+  },
+  {
+   "id": "bwv438",
+   "file": "bwv438.mxl",
+   "bwv": "438",
+   "title": "Wo Gott zum Haus nicht gibt sein' Gunst",
+   "riemenschneider": 157
+  }
+ ]
+}
