@@ -23,6 +23,8 @@
         <button type="button" class="menuitem" data-sample="bwv225"><b>Singet dem Herrn ein neues Lied</b><small>Bach, BWV 225</small></button>
         <button type="button" class="menuitem" data-sample="bwv228"><b>Fürchte dich nicht</b><small>Bach, BWV 228</small></button>
         <button type="button" class="menuitem" data-sample="softvoices"><b>Music, when soft voices die</b><small>Frank Bridge</small></button>
+        <button type="button" class="menuitem" data-sample="amner"><b>Come, let's rejoice</b><small>John Amner</small></button>
+        <button type="button" class="menuitem" data-sample="lewandowski"><b>Hallelujah</b><small>Louis Lewandowski</small></button>
         <button type="button" class="menuitem" data-open-chorales="1"><b>Bach chorales…</b><small>Four-part chorales</small></button>
         <label class="menuitem file"><b>Load a MusicXML file…</b><small>.musicxml, .xml, .mxl or .zip</small><input type="file" class="fileinput" aria-label="Load a MusicXML file" accept=".musicxml,.xml,.mxl,.zip,application/vnd.recordare.musicxml+xml,application/vnd.recordare.musicxml"></label>
       </div>
@@ -140,6 +142,8 @@
             <button type="button" class="samplebtn" data-sample="bwv225"><b>Singet dem Herrn ein neues Lied</b><small>Bach, BWV 225</small></button>
             <button type="button" class="samplebtn" data-sample="bwv228"><b>Fürchte dich nicht</b><small>Bach, BWV 228</small></button>
             <button type="button" class="samplebtn" data-sample="softvoices"><b>Music, when soft voices die</b><small>Frank Bridge</small></button>
+            <button type="button" class="samplebtn" data-sample="amner"><b>Come, let's rejoice</b><small>John Amner</small></button>
+            <button type="button" class="samplebtn" data-sample="lewandowski"><b>Hallelujah</b><small>Louis Lewandowski</small></button>
             <button type="button" class="samplebtn" data-open-chorales="1"><b>Bach chorales</b><small>Four-part chorales</small></button>
           </div>
         </div>
@@ -186,6 +190,7 @@
       <button id="replayBtn" hidden title="Hear what you just sang, with the score following along">Play back</button>
       <label class="tunebox" id="tuneWrap" hidden title="Play back and save your singing pulled to the right pitch (vibrato and expression stay)"><input type="checkbox" id="tuneBox"> Autotune <small class="muted" id="tuneInfo"></small></label>
       <button id="keepBtn" hidden title="Keep this recording as a part to practise against: it appears under Play along">Practise with this</button>
+      <button id="recSwapBtn" hidden title="Switch the parts you recorded between your recording and the score's own sound">Use the score</button>
       <button id="downloadBtn" hidden title="Save what Play back would play (with or without the other parts, at the current volumes) as an MP3">Download MP3</button>
       <button id="newBtn">New exercise</button>
     </div>

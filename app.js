@@ -397,7 +397,9 @@ function buildPiece(rerender, keepMarks){
     const box = $("pieceView");
     const W = Math.max(240, box.clientWidth), H = Math.max(200, box.clientHeight);
     const nStaves = full ? sh.Instruments.reduce((a, ins) => a + ins.Staves.length, 0) : sh.Instruments[PIECE.subs[pi].inst].Staves.length;
-    const fit = H / (10 * (nStaves * 10.5 + 12));
+    // a system's height (in notation units): estimated from the staves, or as measured once it has been drawn
+    const viewKey = full ? "full" : "part:" + PIECE.subs[pi].inst, sysUnits = (PIECE.sysUnits || {})[viewKey] || (nStaves * 10.5 + 12);
+    const fit = H / (10 * sysUnits);
     // Size: big enough to read, small enough that whole bars fit across the page.
     // (Too large and a system gets wider than the screen, cutting bars off on the right.)
     const narrow = W < 600;
@@ -408,15 +410,27 @@ function buildPiece(rerender, keepMarks){
     const z = Math.min(widthCap, Math.max(minZoom, Math.min(1.15, fit))) * (S.zoomAdj || 1);
     OSMD.Zoom = z;
     // if one system is taller than the screen at that size, make pages taller (the page then scrolls)
-    const need = 10 * z * (nStaves * 10.5 + 12);
+    const need = 10 * z * sysUnits;
     OSMD.setCustomPageFormat(W, Math.max(H, Math.ceil(need)));
     try { OSMD.cursor.hide(); } catch(e){}
     const r0 = performance.now();
     OSMD.render();
+    // the height of a system is only estimated above; low bass notes or lyrics can make it taller, cutting
+    // the bottom stave off. So measure what was drawn: if it doesn't fit the score area, draw it again
+    // smaller so it does (or, if you zoomed in, keep the size and make the page tall enough to scroll)
+    // (the measured height is remembered for this score and view, so later redraws get it right first time)
+    const drawn = drawnHeight() + 8;
+    if (drawn > H + 1){
+      PIECE.sysUnits = PIECE.sysUnits || {};
+      PIECE.sysUnits[viewKey] = drawn * 1.05 / (10 * z);                  // with room for the page's bottom margin
+      if ((S.zoomAdj || 1) <= 1){ OSMD.Zoom = Math.max(0.3, z * H * 0.95 / drawn); OSMD.setCustomPageFormat(W, H); OSMD.render(); }
+      const again = drawnHeight() + 8;
+      if (again > H + 1){ OSMD.setCustomPageFormat(W, Math.ceil(again * 1.05)); OSMD.render(); }
+    }
     renderMs = performance.now() - r0;
     try { OSMD.cursor.hide(); } catch(e){}
     applyFade();
-    lastBox = W + "x" + H;
+    lastBox = box.clientWidth + "x" + box.clientHeight;
   }
   const visits = measureVisits(ia, ib);
   const T = buildTimeline(visits, pi);
@@ -753,6 +767,20 @@ function updatePager(){
   if (!on){ $("tapPrev").hidden = true; $("tapNext").hidden = true; }
 }
 
+// How tall the drawn music on the tallest page is, in pixels (from the top of its page to its lowest mark)
+function drawnHeight(){
+  let most = 0;
+  for (const pg of pageEls()){
+    const svg = pg.querySelector("svg"); if (!svg) continue;
+    const sr = svg.getBoundingClientRect(); let low = sr.top;
+    for (const el of svg.querySelectorAll("path, text, rect")){
+      const r = el.getBoundingClientRect();
+      if ((r.width || r.height) && r.height < sr.height * 0.9) low = Math.max(low, r.bottom);   // not a page background
+    }
+    most = Math.max(most, low - sr.top);
+  }
+  return most;
+}
 function applyFade(){
   if (!OSMD || !PIECE) return;
   const inst = OSMD.Sheet.Instruments[PIECE.subs[+$("part").value || 0].inst];
@@ -1535,7 +1563,9 @@ function playMelody(){
 const SAMPLES = {
   bwv225: { title: "Bach: Singet dem Herrn ein neues Lied, BWV 225", file: "bwv225.zip" },
   bwv228: { title: "Bach: Fürchte dich nicht, BWV 228", file: "bwv228.zip" },
-  softvoices: { title: "Bridge: Music, when soft voices die", file: "music-when-soft-voices-die.mxl" }
+  softvoices: { title: "Bridge: Music, when soft voices die", file: "music-when-soft-voices-die.mxl" },
+  amner: { title: "Amner: Come, let's rejoice", file: "come-lets-rejoice-john-amner.mxl" },
+  lewandowski: { title: "Lewandowski: Hallelujah", file: "hallelujah-louis-lewandowsky.mxl" }
 };
 async function fetchFile(url, name){
   const r = await fetch(url); if (!r.ok) throw new Error(r.status);
@@ -1810,7 +1840,11 @@ document.addEventListener("keydown", e => {
   else if (e.key === "ArrowRight" || e.key === "PageDown"){ e.preventDefault(); turn(1); }
   else if (e.key === "ArrowLeft" || e.key === "PageUp"){ e.preventDefault(); turn(-1); }
 });
-let rt = null;
+let rt = null, rtBox = null;
+if (window.ResizeObserver) new ResizeObserver(() => { clearTimeout(rtBox); rtBox = setTimeout(() => {
+  const box = $("pieceView");
+  if (S.src === "piece" && OSMD && PIECE && box.clientHeight > 0 && box.clientWidth + "x" + box.clientHeight !== lastBox) redraw();
+}, 250); }).observe($("pieceView"));
 window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => {
   if (S.src === "gen"){
     const w = $("staff").parentElement.clientWidth;
